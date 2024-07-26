@@ -1,0 +1,40 @@
+<div
+    class="blog-area pt-100 pb-75"
+    style="background-image: url(assets/img/bg4.jpg);"
+    [ngClass]="{'bg-image': router.url === '/index-2'}"
+    [ngClass]="{'bg-white': router.url === '/index-3'}"
+>
+    <div class="container">
+        <div class="section-title">
+            <span class="sub-title">NEWS</span>
+            <h2>Our Latest Insights</h2>
+        </div>
+        <div class="row justify-content-center" *ngIf="blogData">
+            <div class="col-lg-4 col-md-6" *ngFor="let content of blogData.slice(0, 3)">
+                <div class="single-blog-post">
+                    <div class="image">
+                        <a [routerLink]="['/blog', content.attributes.slug]" class="d-block">
+                            <img [src]="content.attributes.image.data.attributes.url" alt="blog-image">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ul class="meta">
+                            <li>
+                                <i class="flaticon-date"></i> {{content.attributes.updatedAt | date}}
+                            </li>
+                        </ul>
+                        <h3>
+                            <a [routerLink]="['/blog', content.attributes.slug]">
+                                {{content.attributes.title}}
+                            </a>
+                        </h3>
+                        <p>{{content.attributes.shortDesc}}</p>
+                        <a [routerLink]="['/blog', content.attributes.slug]" class="link-btn">
+                            Read More <i class="flaticon-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

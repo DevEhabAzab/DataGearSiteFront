@@ -1,0 +1,54 @@
+<!-- Page Title -->
+<div class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <span class="sub-title">WE OFFER PROFESSIONAL SOLUTIONS FOR YOUR BUSINESS</span>
+            <h1>Our Services</h1>
+            <ul>
+                <li>
+                    <a routerLink="/">
+                        Home
+                    </a>
+                </li>
+                <li>Services</li>
+            </ul>
+        </div>
+    </div>
+    <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+    <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+</div>
+
+<!-- Services Area -->
+<div class="services-area ptb-100">
+    <div class="container" *ngIf="servicesData">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let content of servicesData | paginate: { itemsPerPage: 9, currentPage }">
+                <div class="single-services-box">
+                    <div class="icon">
+                        <i class="{{content.attributes.icon}}"></i>
+                    </div>
+                    <h3>
+                        <a [routerLink]="['/service', content.attributes.slug]">
+                            {{content.attributes.title}}
+                        </a>
+                    </h3>
+                    <p>{{content.attributes.shortDesc}}</p>
+                    <a [routerLink]="['/service', content.attributes.slug]" class="link-btn">
+                        Read More <i class="flaticon-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12" *ngIf="servicesData?.length > 9">
+                <div class="pagination-area">
+                    <pagination-controls previousLabel="" nextLabel="" (pageChange)="onPageChange($event)"></pagination-controls>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-homeone-about></app-homeone-about>
+
+<div class="pb-100">
+    <app-subscribe></app-subscribe>
+</div>

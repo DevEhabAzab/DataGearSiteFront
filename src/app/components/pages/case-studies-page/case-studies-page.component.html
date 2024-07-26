@@ -1,0 +1,53 @@
+<!-- Page Title -->
+<div class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <span class="sub-title">WE ARE DOING ALL THE WORK</span>
+            <h1>Portfolio</h1>
+            <ul>
+                <li>
+                    <a routerLink="/">
+                        Home
+                    </a>
+                </li>
+                <li>Portfolio</li>
+            </ul>
+        </div>
+    </div>
+    <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+    <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+</div>
+
+<!-- Portfolio Area -->
+<div class="portfolio-area ptb-100">
+    <div class="container" *ngIf="caseStudiesData">
+        <div class="single-portfolio-box" *ngFor="let content of caseStudiesData | paginate: { itemsPerPage: 6, currentPage }">
+            <div class="row m-0 align-items-center">
+                <div class="col-lg-6 col-md-12 p-0 image">
+                    <a [routerLink]="['/portfolio', content.attributes.slug]" class="d-block">
+                        <img [src]="content.attributes.image.data.attributes.url" alt="portfolio-image">
+                    </a>
+                </div>
+                <div class="col-lg-6 col-md-12 p-0 content">
+                    <div class="number">
+                        {{content.id}}
+                    </div>
+                    <h3>
+                        <a [routerLink]="['/portfolio', content.attributes.slug]">
+                            {{content.attributes.title}}
+                        </a>
+                    </h3>
+                    <p>{{content.attributes.shortDesc}}</p>
+                    <a [routerLink]="['/portfolio', content.attributes.slug]" class="default-btn">
+                        Details <i class="flaticon-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="pagination-area" *ngIf="caseStudiesData?.length > 6">
+            <pagination-controls previousLabel="" nextLabel="" (pageChange)="onPageChange($event)"></pagination-controls>
+        </div>
+    </div>
+</div>
+
+<app-subscribe></app-subscribe>

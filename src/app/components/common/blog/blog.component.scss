@@ -1,0 +1,149 @@
+.blog-area {
+    background: {
+        position: center center;
+        repeat: no-repeat;
+        size: cover;
+    };
+    &.bg-image {
+        background: {
+            image: url(../../../../assets/img/bg5.jpg) !important;
+            position: center center;
+            repeat: no-repeat;
+            size: cover;
+        };
+    }
+    &.bg-white {
+        background-image: unset !important;
+    }
+}
+.single-blog-post {
+    margin-bottom: 25px;
+
+    .image {
+        overflow: hidden;
+
+        img {
+            transition: var(--transition);
+        }
+    }
+    .content {
+        margin-top: 20px;
+
+        .meta {
+            padding-left: 0;
+            margin-bottom: 10px;
+            list-style-type: none;
+            
+            li {
+                font-family: var(--headingFontFamily);
+                color: var(--paragraphColor);
+                display: inline-block;
+                position: relative;
+                margin-right: 20px;
+                padding-left: 22px;
+
+                i {
+                    color: var(--secondaryColor);
+                    position: absolute;
+                    top: 2px;
+                    left: 0;
+                }
+            }
+        }
+        h3 {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .link-btn {
+            color: var(--secondaryColor);
+            padding-right: 30px;
+            position: relative;
+            font: {
+                family: var(--headingFontFamily);
+                weight: 500;
+            };
+            i {
+                right: 0;
+                top: -2px;
+                font-size: 22px;
+                position: absolute;
+            }
+            &:hover {
+                color: var(--primaryColor);
+            }
+        }
+    }
+    &:hover {
+        .image {
+            img {
+                transform: scale(1.08);
+            }
+        }
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    .single-blog-post {
+        .content {
+            h3 {
+                font-size: 18px;
+            }
+            .link-btn {
+                margin-top: 15px;
+                padding-right: 22px;
+    
+                i {
+                    top: 1px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .single-blog-post {
+        .content {
+            h3 {
+                font-size: 20px;
+            }
+            .link-btn {
+                padding-right: 28px;
+
+                i {
+                    top: -2px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .single-blog-post {
+        .content {
+            h3 {
+                font-size: 21px;
+            }
+        }
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {}

@@ -1,0 +1,145 @@
+.community-area {
+    z-index: 1;
+    position: relative;
+
+    .world-map {
+        position: absolute;
+        text-align: center;
+        z-index: -1;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+    &.bg-image {
+        background: {
+            color: var(--secondaryColor);
+            image: url(../../../../assets/img/bg8.jpg);
+            position: center center;
+            repeat: no-repeat;
+            size: cover;
+        };
+    }
+    .funfacts-shape4 {
+        bottom: 15%;
+        right: 14%;
+    }
+}
+.community-content {
+    text-align: center;
+    max-width: 700px;
+    margin: {
+        right: auto;
+        left: auto;
+    };
+    .sub-title {
+        display: block;
+        margin-bottom: 15px;
+        color: var(--primaryColor);
+        font: {
+            family: var(--headingFontFamily);
+            size: var(--fontSize);
+            weight: 500;
+        };
+    }
+    h2 {
+        margin-bottom: 17px;
+        font-size: 40px;
+    }
+    .default-btn {
+        margin-top: 10px;
+    }
+    &.white-color {
+        .sub-title, h2 {
+            color: var(--whiteColor);
+        }
+        p {
+            color: #EBEBEB;
+        }
+        .default-btn {
+            background-color: var(--whiteColor);
+
+            &:hover {
+                color: var(--blackColor);
+            }
+        }
+    }
+}
+.community-image {
+    margin-top: 100px;
+    text-align: center;
+}
+.d-none {
+    &.d-block {
+        display: block !important;
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    .community-area {
+        &.ptb-100 {
+            padding-top: 0;
+        }
+    }
+    .community-content {
+        max-width: 100%;
+
+        .sub-title {
+            font-size: 13px;
+            margin-bottom: 12px;
+        }
+        h2 {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .community-image {
+        margin-top: 35px;
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .community-area {
+        &.ptb-100 {
+            padding-top: 0;
+        }
+    }
+    .community-content {
+        max-width: 670px;
+
+        .sub-title {
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+        h2 {
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+        .default-btn {
+            margin-top: 5px;
+        }
+    }
+    .community-image {
+        margin-top: 80px;
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {}

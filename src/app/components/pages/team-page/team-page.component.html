@@ -1,0 +1,42 @@
+<!-- Page Title -->
+<div class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <span class="sub-title">MEET OUR LEADERSHIP PREPARING FOR YOUR SUCCESS</span>
+            <h1>Our Team</h1>
+            <ul>
+                <li>
+                    <a routerLink="/">
+                        Home
+                    </a>
+                </li>
+                <li>Team</li>
+            </ul>
+        </div>
+    </div>
+    <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+    <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+</div>
+
+<!-- Management Team Area -->
+<div class="team-area bg-f7f8fc pt-100 pb-75" *ngIf="teamData">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-md-6" *ngFor="let content of teamData.members">
+                <div class="single-team-member">
+                    <div class="image">
+                        <img [src]="content.image.data.attributes.url" alt="team-member">
+                    </div>
+                    <div class="content">
+                        <h3>{{content.name}}</h3>
+                        <span>{{content.designation}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-community></app-community>
+
+<app-subscribe></app-subscribe>

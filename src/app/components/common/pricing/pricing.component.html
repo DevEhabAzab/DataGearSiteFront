@@ -1,0 +1,31 @@
+<div class="pricing-area pt-100 pb-75" *ngIf="pricingData">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{pricingData.title}}</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let content of pricingData.plans">
+                <div class="single-pricing-box">
+                    <div class="pricing-header">
+                        <h3>{{content.title}}</h3>
+                        <p>{{content.subTitle}}</p>
+                    </div>
+                    <div class="price">
+                        <h4>${{content.price}}<span>/month</span></h4>
+                        <p>{{content.subText}}</p>
+                    </div>
+                    <div class="features-list">
+                        <h5>ALL FEATURES:</h5>
+                        <ul>
+                            <li *ngFor="let item of content.features">
+                                <i class='{{item.icon}}'></i>
+                                {{item.title}}
+                            </li>
+                        </ul>
+                    </div>
+                    <a routerLink="{{content.buttonLink}}" class="link-btn">{{content.buttonText}}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

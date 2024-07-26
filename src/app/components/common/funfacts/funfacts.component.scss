@@ -1,0 +1,139 @@
+.funfacts-area {
+    &.bg-color {
+        background-color: var(--secondaryColor);
+
+        .single-funfacts-box {
+            color: var(--whiteColor);
+        
+            i {
+                opacity: .07;
+            }
+            p {
+                color: var(--whiteColor);
+            }
+            h3 {
+                color: var(--whiteColor);
+            }
+        }
+    }
+}
+.single-funfacts-box {
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    margin-bottom: 25px;
+
+    i {
+        left: 0;
+        right: 0;
+        top: 50%;
+        z-index: -1;
+        opacity: .04;
+        line-height: 1;
+        font-size: 200px;
+        margin-top: 12px;
+        position: absolute;
+        transform: translateY(-50%);
+    }
+    p {
+        max-width: 140px;
+        line-height: 1.3;
+        color: var(--blackColor);
+        margin: {
+            bottom: 0;
+            left: auto;
+            right: auto;
+        };
+        font: {
+            family: var(--headingFontFamily);
+            size: 22px;
+        };
+    }
+    h3 {
+        line-height: 1;
+        font-size: 80px;
+        margin-bottom: 0;
+        color: var(--secondaryColor);
+    }
+}
+.d-none {
+    &.d-block {
+        display: block !important;
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    .single-funfacts-box {
+        p {
+            max-width: 100%;
+            font-size: 14px;
+            margin: {
+                bottom: 0;
+                left: 0;
+                right: 0;
+            };
+        }
+        h3 {
+            font-size: 45px;
+            margin: {
+                top: 4px;
+                bottom: 2px;
+            };
+        }
+        i {
+            font-size: 100px;
+            margin-top: 8px;
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .single-funfacts-box {
+        p {
+            max-width: 100%;
+            font-size: 15px;
+        }
+        h3 {
+            font-size: 60px;
+            margin-bottom: 2px;
+        }
+        i {
+            font-size: 140px;
+            margin-top: 10px;
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .single-funfacts-box {
+        h3 {
+            font-size: 70px;
+        }
+        p {
+            max-width: 100%;
+            font-size: 18px;
+        }
+        i {
+            font-size: 160px;
+            margin-top: 8px;
+        }
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {}

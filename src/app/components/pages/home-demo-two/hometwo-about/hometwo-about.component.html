@@ -1,0 +1,34 @@
+<div class="about-area pt-100" *ngIf="aboutData">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="about-img" style="background-image: url({{aboutData.image.data.attributes.url}});">
+                    <img [src]="aboutData.image.data.attributes.url" alt="about-image">
+                    <img [src]="aboutData.experienceImage.data.attributes.url" alt="experience" class="experience">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="about-text">
+                    <span class="sub-title">{{aboutData.subTitle}}</span>
+                    <h2>{{aboutData.title}}</h2>
+                    <p>{{aboutData.paragraph}}</p>
+                    <div class="funfacts-list">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-4" *ngFor="let content of aboutData.items.slice(0, 3)">
+                                <div class="box">
+                                    <h3>
+                                        <span>{{content.number}}</span>
+                                    </h3>
+                                    <p>{{content.title}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a routerLink="{{aboutData.buttonLink}}" class="default-btn">
+                        {{aboutData.buttonText}} <i class="flaticon-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

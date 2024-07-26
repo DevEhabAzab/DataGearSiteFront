@@ -1,0 +1,78 @@
+<!-- Default Services -->
+<div
+    class="services-area ptb-100"
+    [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/index-3'}"
+>
+    <div class="container">
+        <div class="section-title">
+            <span class="sub-title">OUR SERVICES</span>
+            <h2>We Offer Professional Solutions For Your Business</h2>
+        </div>
+        <div class="row" *ngIf="servicesData">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let content of servicesData.slice(0, 6)">
+                <div class="single-services-box">
+                    <div class="icon">
+                        <i class="{{content.attributes.icon}}"></i>
+                    </div>
+                    <h3>
+                        <a [routerLink]="['/service', content.attributes.slug]">
+                            {{content.attributes.title}}
+                        </a>
+                    </h3>
+                    <p>{{content.attributes.shortDesc}}</p>
+                    <a [routerLink]="['/service', content.attributes.slug]" class="link-btn">
+                        Read More <i class="flaticon-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="more-services-btn">
+                    <a routerLink="/services" class="default-btn">
+                        View More Services <i class="flaticon-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Services for Home Demo - 2 & 3 -->
+<div
+    class="services-area bg-image ptb-100 d-none"
+    [ngClass]="{'d-block': router.url === '/index-2' || router.url === '/index-3'}"
+>
+    <div class="container">
+        <div class="section-title">
+            <span class="sub-title">OUR SERVICES</span>
+            <h2>We Offer Professional Solutions For Your Business</h2>
+        </div>
+        <div class="services-slides" *ngIf="servicesData">
+            <owl-carousel-o [options]="servicesSlides">
+                <ng-template carouselSlide *ngFor="let content of servicesData.slice(0, 9)">
+                    <div class="single-services-item">
+                        <div class="image">
+                            <img [src]="content.attributes.image.data.attributes.url" alt="services-image">
+                        </div>
+                        <div class="content">
+                            <h3>
+                                <a [routerLink]="['/service', content.attributes.slug]">
+                                    {{content.attributes.title}}
+                                </a>
+                            </h3>
+                            <p>{{content.attributes.shortDesc}}</p>
+                            <a [routerLink]="['/service', content.attributes.slug]" class="link-btn">
+                                Read More <i class="flaticon-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+    </div>
+    <div
+        class="shape1"
+        [ngClass]="{'d-none': router.url === '/index-3'}"
+    >
+        <img src="assets/img/shape/shape1.png" alt="shape">
+    </div>
+</div>

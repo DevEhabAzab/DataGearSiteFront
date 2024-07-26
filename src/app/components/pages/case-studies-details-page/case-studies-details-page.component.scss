@@ -1,0 +1,172 @@
+.portfolio-details-info {
+    background-color: #f9f9f9;
+    padding: 30px 50px;
+    margin-top: 50px;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        list-style-type: none;
+        margin: {
+            bottom: 0;
+            left: calc(var(--bs-gutter-x) * -.5);
+            right: calc(var(--bs-gutter-x) * -.5);
+        };
+        li {
+            color: var(--paragraphColor);
+            flex: 0 0 auto;
+            width: 20%;
+            padding: {
+                left: calc(var(--bs-gutter-x) * .5);
+                right: calc(var(--bs-gutter-x) * .5);
+            };
+            span {
+                display: block;
+                margin-bottom: 5px;
+                color: var(--blackColor);
+                font: {
+                    size: 18px;
+                    weight: 500;
+                    family: var(--headingFontFamily);
+                };
+            }
+            a {
+                color: var(--paragraphColor);
+
+                &:hover {
+                    color: var(--primaryColor);
+                }
+            }
+        }
+    }
+}
+.portfolio-details-desc {
+    margin-top: 50px;
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 15px;
+
+        &:not(:first-child) {
+            margin-top: 25px;
+        }
+    }
+    strong {
+        color: var(--blackColor) !important;
+    }
+    p {
+        a {
+            color: var(--primaryColor);
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    ul, ol {
+        li {
+            color: var(--paragraphColor);
+            margin-bottom: 12px;
+
+            a {
+                color: var(--primaryColor);
+    
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    .portfolio-details-info {
+        margin-top: 30px;
+        padding: 20px 20px 0;
+
+        ul {
+            li {
+                width: 50%;
+                margin-bottom: 20px;
+
+                span {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .portfolio-details-desc {
+        margin-top: 30px;
+
+        .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 23px;
+        }
+        h2 {
+            font-size: 22px;
+        }
+        h3 {
+            font-size: 21px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        h5 {
+            font-size: 19px;
+        }
+        h6 {
+            font-size: 18px;
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+
+    .portfolio-details-info {
+        ul {
+            li {
+                width: 33.333333%;
+            }
+        }
+    }
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .portfolio-details-info {
+        padding: 20px;
+        margin-top: 30px;
+
+        ul {
+            li {
+                span {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    .portfolio-details-desc {
+        margin-top: 30px;
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {}

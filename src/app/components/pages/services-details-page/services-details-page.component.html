@@ -1,0 +1,110 @@
+<div *ngIf="serviceDetailsData">
+    <div *ngFor="let content of serviceDetailsData.data;">
+
+        <!-- Page Title -->
+        <div class="page-title-area">
+            <div class="container">
+                <div class="page-title-content">
+                    <span class="sub-title">SERVICES DETAILS</span>
+                    <h1>{{content.attributes.title}}</h1>
+                    <ul>
+                        <li>
+                            <a routerLink="/">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="/services">
+                                Services
+                            </a>
+                        </li>
+                        <li>{{content.attributes.title}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+            <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+        </div>
+
+        <!-- Services Details Area -->
+        <div class="services-details-area ptb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="services-details-desc">
+                            <div class="image">
+                                <img [src]="content.attributes.image.data.attributes.url" alt="success-story">
+                            </div>
+                            <div markdown ngPreserveWhitespaces>
+                                {{content.attributes.description}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12">
+                        <div class="services-details-sidebar">
+                            <h3>Popular Services</h3>
+                            <ul class="services-list" *ngIf="servicesData">
+                                <li *ngFor="let item of servicesData.slice(0, 8)">
+                                    <a
+                                        [routerLink]="['/service', item.attributes.slug]"
+                                    >
+                                        {{item.attributes.title}}
+                                        <i class="flaticon-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="quote">
+                            “I used to be really shy, and I didn’t know how to deal with all of the drama in high school.”
+                            <br>
+                            <br>
+                            “Qian gave me the confidence to succeed in this World.”
+                        </div>
+                        <div class="instagram-list">
+                            <div class="row">
+                                <div class="col-4">
+                                    <img src="assets/img/services/services1.jpg" alt="image">
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets/img/services/services2.jpg" alt="image">
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets/img/services/services3.jpg" alt="image">
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets/img/services/services4.jpg" alt="image">
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets/img/services/services5.jpg" alt="image">
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets/img/services/services6.jpg" alt="image">
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets/img/services/services7.jpg" alt="image">
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets/img/services/services8.jpg" alt="image">
+                                </div>
+                                <div class="col-4">
+                                    <img src="assets/img/services/services9.jpg" alt="image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<app-how-it-works></app-how-it-works>
+
+<app-pricing></app-pricing>
+
+<app-funfacts></app-funfacts>
+
+<app-partner></app-partner>
+
+<app-subscribe></app-subscribe>

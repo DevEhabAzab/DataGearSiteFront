@@ -1,0 +1,59 @@
+<!-- Default Team Section -->
+<div
+    class="team-area bg-f7f8fc pt-100 pb-75"
+    [ngClass]="{'d-none': router.url === '/index-3'}"
+    *ngIf="teamData"
+>
+    <div class="container">
+        <div class="section-title">
+            <span class="sub-title">{{teamData.subTitle}}</span>
+            <h2>{{teamData.title}}</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-md-6" *ngFor="let content of teamData.members.slice(0, 4)">
+                <div class="single-team-member">
+                    <div class="image">
+                        <img [src]="content.image.data.attributes.url" alt="team-member">
+                    </div>
+                    <div class="content">
+                        <h3>{{content.name}}</h3>
+                        <span>{{content.designation}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div
+        class="shape1 d-none"
+        [ngClass]="{'d-block': router.url === '/index-2'}"
+    >
+        <img src="assets/img/shape/shape1.png" alt="shape">
+    </div>
+</div>
+
+<!-- Team Section for Home Demo - 3 -->
+<div
+    class="team-area pt-100 pb-75 d-none"
+    [ngClass]="{'d-block': router.url === '/index-3'}"
+    *ngIf="teamData"
+>
+    <div class="container">
+        <div class="section-title">
+            <span class="sub-title">{{teamData.subTitle}}</span>
+            <h2>{{teamData.title}}</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 col-md-6" *ngFor="let content of teamData.members.slice(0, 4)">
+                <div class="single-team-member bg-f9f9f9">
+                    <div class="image">
+                        <img [src]="content.image.data.attributes.url" alt="team-member">
+                    </div>
+                    <div class="content">
+                        <h3>{{content.name}}</h3>
+                        <span>{{content.designation}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

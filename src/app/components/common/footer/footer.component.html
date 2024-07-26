@@ -1,0 +1,106 @@
+<div
+    class="footer-area"
+    [ngClass]="{'bg-black': router.url === '/index-2' || router.url === '/services'}"
+>
+    <div class="container" *ngIf="footerData">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div
+                    class="single-footer-widget"
+                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                >
+                    <a
+                        routerLink="/"
+                        class="logo d-inline-block"
+                        [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/services'}"
+                    >
+                        <img [src]="footerData.blackLogo.data.attributes.url" alt="logo">
+                    </a>
+                    <a
+                        routerLink="/"
+                        class="logo d-inline-block d-none"
+                        [ngClass]="{'d-block': router.url === '/index-2' || router.url === '/services'}"
+                    >
+                        <img [src]="footerData.whiteLogo.data.attributes.url" alt="logo">
+                    </a>
+                    <p>{{footerData.paragraph}}</p>
+                    <ul class="social">
+                        <li *ngFor="let item of footerData.socials">
+                            <a href="{{item.link}}" target="_blank">
+                                <i class="{{item.icon}}"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+                <div
+                    class="single-footer-widget pl-1"
+                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                >
+                    <h3>About Us</h3>
+                    <ul class="custom-links">
+                        <li><a routerLink="/">Home Page</a></li>
+                        <li><a routerLink="/about">About Us</a></li>
+                        <li><a routerLink="/services">Our Services</a></li>
+                        <li><a routerLink="/contact">Buy Now</a></li>
+                        <li><a routerLink="/contact">Subscribe Now</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div
+                    class="single-footer-widget"
+                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                >
+                    <h3>Resources</h3>
+                    <ul class="custom-links">
+                        <li><a routerLink="/service/business-strategy">Business Planning</a></li>
+                        <li><a routerLink="/service/business-strategy">Financial Advices</a></li>
+                        <li><a routerLink="/service/business-strategy">Business Strategy</a></li>
+                        <li><a routerLink="/service/business-strategy">Operating Model</a></li>
+                        <li><a routerLink="/service/business-strategy">Sales & Marketing</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+                <div
+                    class="single-footer-widget"
+                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                >
+                    <h3>Quick Link</h3>
+                    <ul class="custom-links">
+                        <li><a routerLink="/">Home Page</a></li>
+                        <li><a routerLink="/contact">Site Map</a></li>
+                        <li><a routerLink="/privacy-policy">Privacy Policy</a></li>
+                        <li><a routerLink="/terms-conditions">Terms & Conditions</a></li>
+                        <li><a routerLink="/privacy-policy">Purchase Guide</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div
+                    class="single-footer-widget"
+                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                >
+                    <h3>Contact Us</h3>
+                    <ul class="footer-contact-info">
+                        <li><span>Address:</span> {{footerData.location}}</li>
+                        <li><span>Email:</span> <a href="mailto:{{footerData.email}}">{{footerData.email}}</a></li>
+                        <li><span>Phone:</span><a href="tel:{{footerData.phoneNumber}}">{{footerData.phoneNumber}}</a></li>
+                        <li><span>Fax:</span><a href="tel:{{footerData.faxNumber}}">{{footerData.faxNumber}}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <p>© Qian is Proudly Owned by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
+        </div>
+    </div>
+    <div
+        class="shape3 d-none"
+        [ngClass]="{'d-block': router.url === '/index-3'}"
+    >
+        <img src="assets/img/shape/shape3.png" alt="shape">
+    </div>
+</div>

@@ -1,0 +1,240 @@
+.about-img {
+    margin-right: 15px;
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    background: {
+        position: center center;
+        repeat: no-repeat;
+        size: cover;
+    };
+    img {
+        display: none;
+    }
+    .experience {
+        right: 30px;
+        bottom: 30px;
+        padding: 20px;
+        position: absolute;
+        border-radius: 20px;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, .85);
+        margin: {
+            left: auto;
+            right: auto;
+        };
+    }
+}
+.about-text {
+    padding-left: 15px;
+
+    .sub-title {
+        display: block;
+        margin-bottom: 12px;
+        color: var(--primaryColor);
+        font: {
+            family: var(--headingFontFamily);
+            size: var(--fontSize);
+            weight: 500;
+        };
+    }
+    h2 {
+        margin-bottom: 15px;
+        font-size: 40px;
+    }
+    .funfacts-list {
+        margin-top: 30px;
+
+        .box {
+            padding: 40px 15px;
+            text-align: center;
+            border-radius: 27px;
+            border: 1px solid #eeeeee;
+
+            h3 {
+                line-height: 1;
+                font-size: 53px;
+                color: var(--secondaryColor);
+                margin: {
+                    bottom: 8px;
+                    top: -10px;
+                };
+            }
+            p {
+                color: var(--blackColor);
+                line-height: 1;
+                font: {
+                    size: 18px;
+                    weight: 500;
+                    family: var(--headingFontFamily);
+                };
+            }
+            .odometer-digit {
+                &:last-child {
+                    padding-right: 4px;
+                }
+            }
+        }
+    }
+    .default-btn {
+        margin-top: 50px;
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    .about-img {
+        height: auto;
+        background-image: unset !important;
+        margin: {
+            right: 0;
+            bottom: 25px;
+        };
+        img {
+            display: inline-block;
+        }
+        .experience {
+            right: 15px;
+            width: 100px;
+            bottom: 15px;
+            padding: 10px;
+        }
+    }
+    .about-text {
+        padding-left: 0;
+
+        .sub-title {
+            font-size: 13px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+        .funfacts-list {
+            margin-top: 20px;
+
+            .box {
+                padding: 0;
+                border: none;
+                border-radius: 0;
+                text-align: start;
+
+                h3 {
+                    font-size: 30px;
+                    margin: {
+                        bottom: 8px;
+                        top: -5px;
+                    };
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+        .default-btn {
+            margin-top: 20px;
+        }
+    }
+
+}
+
+/* Min width 576px to Max width 767px */
+@media only screen and (min-width : 576px) and (max-width : 767px) {}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .about-img {
+        height: auto;
+        background-image: unset !important;
+        margin: {
+            right: 0;
+            bottom: 25px;
+        };
+        img {
+            display: inline-block;
+        }
+        .experience {
+            width: 150px;
+            bottom: 50px;
+            padding: 14px;
+        }
+    }
+    .about-text {
+        padding-left: 0;
+
+        .sub-title {
+            font-size: 14px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        .funfacts-list {
+            margin-top: 25px;
+
+            .box {
+                padding: 25px 15px;
+                border-radius: 15px;
+
+                h3 {
+                    font-size: 40px;
+                    margin: {
+                        bottom: 9px;
+                        top: -5px;
+                    };
+                }
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+        .default-btn {
+            margin-top: 25px;
+        }
+    }
+
+}
+
+/* Min width 992px to Max width 1199px */
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .about-img {
+        margin-right: 0;
+    }
+    .about-text {
+        padding-left: 0;
+
+        h2 {
+            font-size: 38px;
+        }
+        .funfacts-list {
+            margin-top: 25px;
+
+            .box {
+                padding: 25px 10px;
+                border-radius: 10px;
+
+                h3 {
+                    font-size: 40px;
+                    margin: {
+                        bottom: 8px;
+                        top: -5px;
+                    };
+                }
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+        .default-btn {
+            margin-top: 25px;
+        }
+    }
+
+}
+
+/* Min width 1200px to Max width 1399px */
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {}
+
+/* Min width 1600px */
+@media only screen and (min-width: 1600px) {}

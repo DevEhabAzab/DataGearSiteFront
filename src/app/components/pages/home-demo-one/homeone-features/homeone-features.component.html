@@ -1,0 +1,15 @@
+<div class="features-area pt-100 pb-75" *ngIf="featuresData">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let content of featuresData.items.slice(0, 2)">
+                <div class="features-item">
+                    <div class="icon">
+                        <i class="{{content.icon}}"></i>
+                    </div>
+                    <h3>{{content.title}}</h3>
+                    <p>{{content.paragraph}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+<!-- Page Title -->
+<div class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <span class="sub-title">OUR LATEST INSIGHTS</span>
+            <h1>Blog Grid</h1>
+            <ul>
+                <li>
+                    <a routerLink="/">
+                        Home
+                    </a>
+                </li>
+                <li>Blog</li>
+            </ul>
+        </div>
+    </div>
+    <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+    <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+</div>
+
+<!-- Blog Area -->
+<div class="blog-area pt-100 pb-75">
+    <div class="container" *ngIf="blogData">
+        <div class="row">
+            <div class="col-lg-4 col-md-6" *ngFor="let content of blogData | paginate: { itemsPerPage: 9, currentPage }">
+                <div class="single-blog-post">
+                    <div class="image">
+                        <a [routerLink]="['/blog', content.attributes.slug]" class="d-block">
+                            <img [src]="content.attributes.image.data.attributes.url" alt="blog-image">
+                        </a>
+                    </div>
+                    <div class="content">
+                        <ul class="meta">
+                            <li>
+                                <i class="flaticon-date"></i> {{content.attributes.updatedAt | date}}
+                            </li>
+                        </ul>
+                        <h3>
+                            <a [routerLink]="['/blog', content.attributes.slug]">
+                                {{content.attributes.title}}
+                            </a>
+                        </h3>
+                        <p>{{content.attributes.shortDesc}}</p>
+                        <a [routerLink]="['/blog', content.attributes.slug]" class="link-btn">
+                            Read More <i class="flaticon-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12" *ngIf="blogData?.length > 9">
+                <div class="pagination-area">
+                    <pagination-controls previousLabel="" nextLabel="" (pageChange)="onPageChange($event)"></pagination-controls>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

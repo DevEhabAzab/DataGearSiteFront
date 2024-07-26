@@ -1,0 +1,30 @@
+<!-- Page Title -->
+<div class="page-title-area" *ngIf="termsConditionsData">
+    <div class="container">
+        <div class="page-title-content">
+            <h1>{{termsConditionsData.title}}</h1>
+            <ul>
+                <li>
+                    <a routerLink="/">
+                        Home
+                    </a>
+                </li>
+                <li>{{termsConditionsData.title}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+    <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+</div>
+
+<!-- Terms & Conditions Area -->
+<div class="terms-conditions-area ptb-100" *ngIf="termsConditionsData">
+    <div class="container">
+        <div class="terms-conditions-content">
+            <div markdown ngPreserveWhitespaces>
+                {{termsConditionsData.description}}
+            </div>
+            <p>Last updated: {{termsConditionsData.updatedAt | date}}</p>
+        </div>
+    </div>
+</div>

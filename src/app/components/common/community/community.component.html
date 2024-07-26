@@ -1,0 +1,53 @@
+<!-- Default Community Section -->
+<div
+    class="community-area ptb-100 pb-0"
+    [ngClass]="{'d-none': router.url === '/index-3'}"
+    *ngIf="communityData"
+>
+    <div class="container">
+        <div class="community-content">
+            <span class="sub-title">{{communityData.subTitle}}</span>
+            <h2>{{communityData.title}}</h2>
+            <p>{{communityData.paragraph}}</p>
+            <a routerLink="{{communityData.buttonLink}}" class="default-btn">
+                {{communityData.buttonText}} <i class="flaticon-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="community-image">
+        <img [src]="communityData.image.data.attributes.url" alt="community-image">
+    </div>
+    <div class="world-map"><img src="assets/img/world-map.png" alt="world-map"></div>
+</div>
+
+<!-- Community Section for Home Demo - 3 -->
+<div
+    class="community-area bg-image ptb-200 d-none"
+    [ngClass]="{'d-block': router.url === '/index-3'}"
+    *ngIf="communityData"
+>
+    <div class="container">
+        <div class="community-content white-color">
+            <span class="sub-title">{{communityData.subTitle}}</span>
+            <h2>{{communityData.title}}</h2>
+            <p>{{communityData.paragraph}}</p>
+            <a routerLink="{{communityData.buttonLink}}" class="default-btn">
+                {{communityData.buttonText}} <i class="flaticon-right"></i>
+            </a>
+        </div>
+    </div>
+    <div class="funfacts-images">
+        <div class="funfacts-shape1">
+            <img [src]="communityData.shape1.data.attributes.url" alt="funfacts-shape">
+        </div>
+        <div class="funfacts-shape2">
+            <img [src]="communityData.shape2.data.attributes.url" alt="funfacts-shape">
+        </div>
+        <div class="funfacts-shape3">
+            <img [src]="communityData.shape3.data.attributes.url" alt="funfacts-shape">
+        </div>
+        <div class="funfacts-shape4">
+            <img [src]="communityData.shape4.data.attributes.url" alt="funfacts-shape">
+        </div>
+    </div>
+</div>

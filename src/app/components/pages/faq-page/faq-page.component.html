@@ -1,0 +1,49 @@
+<!-- Page Title -->
+<div class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <span class="sub-title">DON’T HESITATE TO ASK QUESTIONS</span>
+            <h1>Frequently Asked Questions</h1>
+            <ul>
+                <li>
+                    <a routerLink="/">
+                        Home
+                    </a>
+                </li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+    </div>
+    <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+    <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+</div>
+
+<div class="faq-area ptb-100" *ngIf="faqData">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="faq-image" style="background-image: url({{faqData.image.data.attributes.url}});">
+                    <img [src]="faqData.image.data.attributes.url" alt="faq-image">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="faq-content">
+                    <div class="accordion mt-0">
+                        <div class="accordion-section" *ngFor="let content of faqData.items.slice(0, 7)">
+                            <div class="accordion-header" (click)="toggleSection(content.id)" [ngClass]="{ 'open': isSectionOpen(content.id) }">
+                                {{content.title}}
+                            </div>
+                            <div class="accordion-content" [ngClass]="{ 'open': isSectionOpen(content.id) }">
+                                <p>{{content.desc}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-subscribe></app-subscribe>
+
+<app-partner></app-partner>

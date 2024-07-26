@@ -1,0 +1,43 @@
+<div class="services-details-area pb-100" *ngIf="workPlanData">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-12">
+                <div class="services-details-sidebar">
+                    <div class="story">
+                        <img [src]="workPlanData.image.data.attributes.url" alt="success-story">
+                        <lightgallery [settings]="settings" [onBeforeSlide]="onBeforeSlide">
+                            <a
+                                data-lg-size="1280-720"
+                                data-src="https://www.youtube.com/watch?v=PWvPbGWVRrU"
+                                data-sub-html="<p>Watch Video</p>"
+                            >
+                                <div class="popup-video">
+                                    Watch Video
+                                </div>
+                            </a>
+                        </lightgallery>
+                    </div>
+                    <div class="quote">
+                        “{{workPlanData.quotes}}”
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-3 col-6" *ngFor="let content of workPlanData.funfacts.slice(0, 2)">
+                            <div class="single-funfacts-box">
+                                <p>{{content.title}}</p>
+                                <h3>{{content.number}}</h3>
+                                <p>{{content.subTitle}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <div class="services-details-desc">
+                    <div markdown ngPreserveWhitespaces>
+                        {{workPlanData.description}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

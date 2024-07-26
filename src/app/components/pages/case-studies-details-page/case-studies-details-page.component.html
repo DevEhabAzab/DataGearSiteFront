@@ -1,0 +1,73 @@
+<div *ngIf="caseStudiesDetailsData">
+    <div *ngFor="let content of caseStudiesDetailsData.data;">
+
+        <!-- Page Title -->
+        <div class="page-title-area">
+            <div class="container">
+                <div class="page-title-content">
+                    <h1>{{content.attributes.title}}</h1>
+                    <ul>
+                        <li>
+                            <a routerLink="/">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="/portfolio">
+                                Portfolio
+                            </a>
+                        </li>
+                        <li>{{content.attributes.title}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+            <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+        </div>
+
+        <!-- Portfolio Details Area -->
+        <div class="portfolio-details-area ptb-100">
+            <div class="container">
+                <div class="portfolio-details-image-slides">
+                    <owl-carousel-o [options]="portfolioDetailsImageSlides">
+                        <ng-template carouselSlide *ngFor="let image of content.attributes.detailsImages.data">
+                            <div class="image">
+                                <img [src]="image.attributes.url" alt="portfolio">
+                            </div>
+                        </ng-template>
+                    </owl-carousel-o>
+                </div>
+                <div class="portfolio-details-info">
+                    <ul>
+                        <li>
+                            <span>Client:</span>
+                            {{content.attributes.client}}
+                        </li>
+                        <li>
+                            <span>Location:</span>
+                            {{content.attributes.location}}
+                        </li>
+                        <li>
+                            <span>Completed:</span>
+                            {{content.attributes.completedDate}}
+                        </li>
+                        <li>
+                            <span>Timeframe:</span>
+                            {{content.attributes.timeframe}}
+                        </li>
+                        <li>
+                            <span>Website:</span>
+                            <a href="{{content.attributes.website}}" target="_blank">{{content.attributes.website}}</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="portfolio-details-desc">
+                    <div markdown ngPreserveWhitespaces>
+                        {{content.attributes.description}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

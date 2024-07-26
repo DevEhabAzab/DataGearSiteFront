@@ -1,0 +1,13 @@
+.partner-item {
+    margin-bottom: 25px;
+    text-align: center;
+
+    img {
+        transition: var(--transition);
+    }
+    &:hover {
+        img {
+            transform: scale(1.05);
+        }
+    }
+}

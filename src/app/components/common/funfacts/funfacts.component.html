@@ -1,0 +1,39 @@
+<!-- Default Funfacts -->
+<div
+    class="funfacts-area bg-color pt-100 pb-75"
+    [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/index-3' || router.url === '/services-details'}"
+    *ngIf="funfactsData"
+>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-6" *ngFor="let content of funfactsData.items.slice(0, 4)">
+                <div class="single-funfacts-box">
+                    <i class="{{content.icon}}"></i>
+                    <p>{{content.title}}</p>
+                    <h3>{{content.number}}</h3>
+                    <p>{{content.subTitle}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Funfacts for Home Demo - 2 & 3 -->
+<div
+    class="funfacts-area bg-f9f9f9 pt-100 pb-75 d-none"
+    [ngClass]="{'d-block': router.url === '/index-2' || router.url === '/index-3' || router.url === '/services-details'}"
+    *ngIf="funfactsData"
+>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-6" *ngFor="let content of funfactsData.items.slice(0, 4)">
+                <div class="single-funfacts-box">
+                    <i class="{{content.icon}}"></i>
+                    <p>{{content.title}}</p>
+                    <h3>{{content.number}}</h3>
+                    <p>{{content.subTitle}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+<div class="widget widget_search">
+    <h3 class="widget-title"><span>Search</span></h3>
+    <form class="search-form">
+        <input type="search" class="search-field" placeholder="Search...">
+        <button type="submit"><i class='bx bx-search-alt'></i></button>
+    </form>
+</div>
+
+<div class="widget widget_categories">
+    <h3 class="widget-title"><span>Categories</span></h3>
+    <ul>
+        <li><a routerLink="/blog-grid">Business <span class="count">(6)</span></a></li>
+        <li><a routerLink="/blog-grid">Privacy <span class="count">(4)</span></a></li>
+        <li><a routerLink="/blog-grid">Technology <span class="count">(5)</span></a></li>
+        <li><a routerLink="/blog-grid">Tips <span class="count">(3)</span></a></li>
+        <li><a routerLink="/blog-grid">Log in <span class="count">(8)</span></a></li>
+        <li><a routerLink="/blog-grid">Uncategorized <span class="count">(1)</span></a></li>
+    </ul>
+</div>
+
+<div class="widget widget_qian_posts_thumb" *ngIf="blogData">
+    <h3 class="widget-title"><span>Popular Posts</span></h3>
+    <article class="item" *ngFor="let content of blogData.slice(0, 4)">
+        <a [routerLink]="['/blog', content.attributes.slug]" class="thumb">
+            <img [src]="content.attributes.image.data.attributes.url" alt="blog-image">
+        </a>
+        <div class="info">
+            <h4 class="title">
+                <a [routerLink]="['/blog', content.attributes.slug]">
+                    {{content.attributes.title}}
+                </a>
+            </h4>
+            <span class="date">{{content.attributes.updatedAt | date}}</span>
+        </div>
+    </article>
+</div>
+
+<div class="widget widget_follow_us">
+    <h3 class="widget-title"><span>Follow Us</span></h3>
+    <ul>
+        <li><a href="#" target="_blank">Facebook</a></li>
+        <li><a href="#" target="_blank">Twitter</a></li>
+        <li><a href="#" target="_blank">Instagram</a></li>
+        <li><a href="#" target="_blank">Pinterest</a></li>
+        <li><a href="#" target="_blank">Linkedin</a></li>
+    </ul>
+</div>
+
+<div class="widget widget_tag_cloud">
+    <h3 class="widget-title"><span>Tags</span></h3>
+    <div class="tagcloud">
+        <a routerLink="/blog-grid">Advertisment</a>
+        <a routerLink="/blog-grid">Business</a>
+        <a routerLink="/blog-grid">Life</a>
+        <a routerLink="/blog-grid">Lifestyle</a>
+        <a routerLink="/blog-grid">Fashion</a>
+        <a routerLink="/blog-grid">Ads</a>
+        <a routerLink="/blog-grid">Advertisment</a>
+        <a routerLink="/blog-grid">Business</a>
+    </div>
+</div>

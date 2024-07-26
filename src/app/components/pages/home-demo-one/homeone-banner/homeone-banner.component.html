@@ -1,0 +1,33 @@
+<div class="home-area" *ngIf="bannerData">
+    <div class="home-slides">
+        <owl-carousel-o [options]="homeSlides">
+            <ng-template carouselSlide *ngFor="let content of bannerData.homeSlides">
+                <div class="main-banner-area" style="background-image: url({{content.backgroundImage.data.attributes.url}});">
+                    <div class="container-fluid">
+                        <div class="main-banner-content">
+                            <span class="sub-title">{{content.subTitle}}</span>
+                            <h1>{{content.title}}</h1>
+                            <p>{{content.paragraph}}</p>
+                            <a routerLink="{{content.buttonLink}}" class="default-btn">
+                                {{content.buttonText}} <i class="flaticon-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </ng-template>
+        </owl-carousel-o>
+    </div>
+    <div class="container-fluid">
+        <div class="banner-box">
+            <h2>{{bannerData.title}}</h2>
+            <ul *ngIf="bannerListsData">
+                <li *ngFor="let item of bannerListsData.lists">
+                    {{item.title}}
+                </li>
+            </ul>
+            <a routerLink="{{bannerData.buttonLink}}" class="default-btn">
+                {{bannerData.buttonText}} <i class="flaticon-right"></i>
+            </a>
+        </div>
+    </div>
+</div>

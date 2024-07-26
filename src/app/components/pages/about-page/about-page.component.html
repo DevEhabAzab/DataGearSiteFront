@@ -1,0 +1,75 @@
+<!-- Page Title -->
+<div class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <span class="sub-title">WE OFFER PROFESSIONAL SOLUTIONS</span>
+            <h1>About Us</h1>
+            <ul>
+                <li>
+                    <a routerLink="/">
+                        Home
+                    </a>
+                </li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </div>
+    <div class="shape4"><img src="assets/img/shape//shape5.png" alt="shape"></div>
+    <div class="shape5"><img src="assets/img/shape//shape6.png" alt="shape"></div>
+</div>
+
+<!-- About Area -->
+<div class="about-area pt-100" *ngIf="aboutData">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12">
+                <div class="about-img" style="background-image: url({{aboutData.image.data.attributes.url}});">
+                    <img [src]="aboutData.image.data.attributes.url" alt="about-image">
+                    <img [src]="aboutData.experienceImage.data.attributes.url" alt="experience" class="experience">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="about-text">
+                    <span class="sub-title">{{aboutData.subTitle}}</span>
+                    <h2>{{aboutData.title}}</h2>
+                    <p>{{aboutData.paragraph}}</p>
+                    <div class="funfacts-list">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-4" *ngFor="let content of aboutData.items.slice(0, 3)">
+                                <div class="box">
+                                    <h3>
+                                        <span>{{content.number}}</span>
+                                    </h3>
+                                    <p>{{content.title}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a routerLink="/contact" class="default-btn">
+                        Contact Us <i class="flaticon-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-partner></app-partner>
+
+<app-work-plan></app-work-plan>
+
+<app-experience></app-experience>
+
+<app-features></app-features>
+
+<app-funfacts></app-funfacts>
+
+<app-team></app-team>
+
+<app-feedback></app-feedback>
+
+<app-community></app-community>
+
+<div class="ptb-100">
+    <app-subscribe></app-subscribe>
+</div>

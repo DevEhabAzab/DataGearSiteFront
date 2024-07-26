@@ -1,0 +1,16 @@
+<div class="how-its-work-area pb-100" *ngIf="howItWorksData">
+    <div class="container">
+        <div class="how-its-work-box">
+            <img [src]="howItWorksData.image.data.attributes.url" alt="how-we-work">
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let content of howItWorksData.workPlan">
+                <div class="single-how-its-work-box">
+                    <div class="number">{{content.icon}}</div>
+                    <h3>{{content.title}}</h3>
+                    <p>{{content.paragraph}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

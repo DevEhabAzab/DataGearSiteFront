@@ -1,0 +1,24 @@
+<div class="feedback-area ptb-100" *ngIf="feedbackData" style="background-image: url({{feedbackData.backgroundImage.data.attributes.url}});">
+    <div class="container">
+        <div class="section-title white-color">
+            <span class="sub-title">{{feedbackData.subTitle}}</span>
+            <h2>{{feedbackData.title}}</h2>
+        </div>
+        <div class="feedback-slides" *ngIf="feedbackSlideData">
+            <owl-carousel-o [options]="feedbackSlides">
+                <ng-template carouselSlide *ngFor="let content of feedbackSlideData.slides">
+                    <div class="single-feedback-box">
+                        <p>{{content.desc}}</p>
+                        <div class="client-info d-flex align-items-center">
+                            <img [src]="content.image.data.attributes.url" alt="user">
+                            <div class="title">
+                                <h3>{{content.name}}</h3>
+                                <span>{{content.designation}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+        </div>
+    </div>
+</div>
