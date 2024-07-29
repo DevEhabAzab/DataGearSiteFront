@@ -35,7 +35,7 @@
                 "node_modules/ngx-owl-carousel-o/lib/styles/prebuilt-themes/owl.theme.default.min.css",
                 "src/assets/css/flaticon.css",
                 "src/styles.scss"
-            ],
+                          ],
             "scripts": []
           },
           "configurations": {
@@ -103,11 +103,15 @@
             ],
             "styles": [
               "src/styles.scss"
+
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

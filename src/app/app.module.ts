@@ -65,6 +65,15 @@ import { ProductsPageComponent } from './components/pages/products-page/products
 import { CartPageComponent } from './components/pages/cart-page/cart-page.component';
 import { CheckoutPageComponent } from './components/pages/checkout-page/checkout-page.component';
 import { ProductsDetailsPageComponent } from './components/pages/products-details-page/products-details-page.component';
+import { RichTextEditorComponent } from './components/pages/rich-text-editor/rich-text-editor.component';
+import { NgxEditorModule } from 'ngx-editor';
+
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+import { Toolbar } from 'ngx-editor';
+import { QuillModule } from 'ngx-quill';
+import { RichTextEditorComponent2 } from './components/pages/rich-text-editor2/rich-text-editor2.component';
+import { EditorModule } from 'primeng/editor';
 
 @NgModule({
     declarations: [
@@ -123,7 +132,10 @@ import { ProductsDetailsPageComponent } from './components/pages/products-detail
         ProductsPageComponent,
         CartPageComponent,
         CheckoutPageComponent,
-        ProductsDetailsPageComponent
+        ProductsDetailsPageComponent,
+        RichTextEditorComponent,
+        RichTextEditorComponent2
+        
     ],
     imports: [
         BrowserModule,
@@ -134,7 +146,12 @@ import { ProductsDetailsPageComponent } from './components/pages/products-detail
         HttpClientModule,
         MarkdownModule.forRoot(),
         NgxPaginationModule,
-        LightgalleryModule
+        LightgalleryModule,
+        NgxEditorModule,
+        FormsModule,
+        ReactiveFormsModule,
+        QuillModule,
+        EditorModule
     ],
     providers: [],
     bootstrap: [AppComponent]

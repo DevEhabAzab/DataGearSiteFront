@@ -27,7 +27,9 @@ import { ServicesPageOneComponent } from './components/pages/services-page-one/s
 import { ServicesPageTwoComponent } from './components/pages/services-page-two/services-page-two.component';
 import { TeamPageComponent } from './components/pages/team-page/team-page.component';
 import { TermsConditionsPageComponent } from './components/pages/terms-conditions-page/terms-conditions-page.component';
+import { RichTextEditorComponent } from './components/pages/rich-text-editor/rich-text-editor.component';
 
+import { RichTextEditorComponent2 } from './components/pages/rich-text-editor2/rich-text-editor2.component';
 const routes: Routes = [
     {path: '', component: HomeDemoOneComponent},
     {path: 'index-2', component: HomeDemoTwoComponent},
@@ -55,6 +57,9 @@ const routes: Routes = [
     {path: 'blog-right-sidebar', component: BlogRightSidebarPageComponent},
     {path: 'blog/:slug', component: BlogDetailsPageComponent},
     {path: 'contact', component: ContactPageComponent},
+    {path: 'Editor', component: RichTextEditorComponent},
+    {path: 'Editor2', component: RichTextEditorComponent2},
+
     // Here add new pages component
 
     {path: '**', component: NotFoundComponent} // This line will remain down from the whole pages component list
