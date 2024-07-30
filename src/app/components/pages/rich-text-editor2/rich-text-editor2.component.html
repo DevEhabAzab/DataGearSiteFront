@@ -14,16 +14,16 @@
         <button class="ql-underline" aria-label="Underline"></button>
         <button class="ql-strike" aria-label="Strike"></button>
       </span>
-      <span class="ql-formats">
+      <span class="ql-formats ql-color">
         <select title="Text Color"  class="ql-color" defaultValue="rgb(0, 0, 0)">
-          <option value="rgb(0, 0, 0)"  label="rgb(0, 0, 0)"></option>
-          <option value="rgb(61, 20, 102)" label="rgb(61, 20, 102)"></option>
+          <option value="rgb(0, 0, 0)"  label="rgb(0, 0, 0)" data-ggggg="ppppppp">mylable1</option>
+          <option value="rgb(61, 20, 102)" label="rgb(61, 20, 102)">mylable12</option>
         </select>
         <span class="ql-format-separator"></span>
         <select title="Background Color" class="ql-background" defaultValue="rgb(255, 255, 255)">
-          <option value="rgb(0, 0, 0)" label="rgb(0, 0, 0)"></option>
+          <!-- <option value="rgb(0, 0, 0)" label="rgb(0, 0, 0)"><div style="width: 20px; height: 20px;"></div></option>
           
-          <option value="rgb(61, 20, 102)" label="rgb(61, 20, 102)"></option>
+          <option value="rgb(61, 20, 102)" label="rgb(61, 20, 102)"><div style="width: 20px; height: 20px;"></div></option> -->
         </select>
     </span>
       <span class="ql-formats">
@@ -42,3 +42,6 @@
       </span>
     </p-header>
   </p-editor>
+  <style>
+    .p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item{width:20px !important;height: 20px !important;}
+  </style>

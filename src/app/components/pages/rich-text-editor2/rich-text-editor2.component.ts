@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy,ElementRef, Renderer2, AfterViewInit } from '@angular/core';
+import { Component, OnInit, OnDestroy,ElementRef, Renderer2, AfterViewInit ,ViewChild} from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { QuillEditorComponent } from 'ngx-quill';
 
@@ -12,16 +12,31 @@ export class RichTextEditorComponent2 implements OnInit ,AfterViewInit {
  text:any;
  editorConfig: any;
  textColor:any;
+ private styleId = 'dynamic-style';
+ @ViewChild('#ql-picker-options-2') myElement!: ElementRef;
+
  constructor(private el: ElementRef, private renderer: Renderer2) {}
 
 
  ngAfterViewInit() {
-  const doc=document.querySelectorAll('span .ql-color');
+  //console.log(this.myElement.nativeElement.getElementsByClassName('ql-picker-options'));
+  const jhjcolor=document.getElementsByClassName("ql-color");
+  const jhj=document.getElementById("ql-picker-options-2");
+
+  const doc=document.querySelectorAll('.ql-picker-options');
+console.log(jhj)
+console.log(jhjcolor)
+
+
+
+//this.addDynamicStyle()
+
 
 
   doc.forEach(child => {
+    console.log(child)
     // Traverse up to the parent <span> element
-    const parentSpan = (child as HTMLElement).closest('span');
+   // const parentSpan = (child as HTMLElement).closest('span');
       //console.log('Parent span containing child with class "hamada":', parentSpan.textContent);
           // Type assertion to HTMLElement
 
@@ -35,17 +50,20 @@ export class RichTextEditorComponent2 implements OnInit ,AfterViewInit {
     
   });
   console.log(doc);
+  const elements = this.el.nativeElement.querySelector('.p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item');
+console.log(elements)
   setTimeout(() => {
-    const targetElement = this.el.nativeElement.querySelector('ql-picker-item');
+    const targetElement = this.el.nativeElement.getElementsByClassName('ql-picker-item');
 
     if (targetElement) {
       console.log(targetElement);
       // Perform any actions on the target element here
-      this.renderer.setStyle(targetElement, 'border', '2px solid red');
+      console.log(this.renderer)
+      //this.renderer.setStyle(targetElement, 'border', '2px solid red');
     } else {
       console.log('Target element not found');
     }
-  }, 200);
+  }, 5000);
 }
   ngOnInit():
    void {
@@ -78,7 +96,21 @@ export class RichTextEditorComponent2 implements OnInit ,AfterViewInit {
     ]
   };
   }
+  // addDynamicStyle() {
+  //   const style = this.renderer.createElement('style');
+  //   style.id = this.styleId;
+  //   style.textContent = `
+  //     .ql-color .ql-picker-options .ql-picker-item{width:20px;height:20px}
+  //   `;//.p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item{width:20px;height:20px}
+  //   this.renderer.appendChild(document.head, style);
+  // }
 
+  // removeDynamicStyle() {
+  //   const styleElement = document.getElementById(this.styleId);
+  //   if (styleElement) {
+  //     this.renderer.removeChild(document.head, styleElement);
+  //   }
+  // }
 
 
 
