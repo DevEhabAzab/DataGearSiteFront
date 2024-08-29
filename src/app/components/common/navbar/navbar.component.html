@@ -165,6 +165,10 @@
                                     <a routerLink="/blog-grid" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Blog Grid</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a href="#" class="nav-link" routerLinkActive="active" (click)="openCraeteBlogPopUp($event)" [routerLinkActiveOptions]="{exact: true}">Create Blog</a>
+                                    
+                                </li>
+                                <li class="nav-item">
                                     <a routerLink="/blog-left-sidebar" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Blog Left Sidebar</a>
                                 </li>
                                 <li class="nav-item">
@@ -419,3 +423,7 @@
         </div>
     </div>
 </div>
+<!-- Popup component -->
+<div *ngIf="isCreateBlogPopupVisible">
+    <app-create-blog-popup  (close)="closePopup()"></app-create-blog-popup >
+  </div>

@@ -30,6 +30,7 @@ import { TermsConditionsPageComponent } from './components/pages/terms-condition
 import { RichTextEditorComponent } from './components/pages/rich-text-editor/rich-text-editor.component';
 
 import { RichTextEditorComponent2 } from './components/pages/rich-text-editor2/rich-text-editor2.component';
+import { CreateBlogComponent } from './components/pages/create-blog/create-blog.component';
 const routes: Routes = [
     {path: '', component: HomeDemoOneComponent},
     {path: 'index-2', component: HomeDemoTwoComponent},
@@ -59,6 +60,8 @@ const routes: Routes = [
     {path: 'contact', component: ContactPageComponent},
     {path: 'Editor', component: RichTextEditorComponent},
     {path: 'Editor2', component: RichTextEditorComponent2},
+    {path: 'blog/create/:slug', component: CreateBlogComponent},
+
 
     // Here add new pages component
 

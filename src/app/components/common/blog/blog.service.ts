@@ -17,5 +17,9 @@ export class BlogService {
         let url = `${this.API_URL}/blogs?populate=*&sort[0]=id%3Adesc`;
         return this.http.get(url);
     }
+    create(blog:any){
+        let url = `${this.API_URL}/Blog/CreateBlog`;
+        return this.http.post(url,blog);
+    }
 
 }

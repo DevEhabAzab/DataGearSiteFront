@@ -1,0 +1,33 @@
+<div class="modal show d-block" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Create Blog</h5>
+        <!-- Move close button after the title and aligned to the right -->
+        <button type="button" class="close" aria-label="Close" (click)="closePopup()" style="position: absolute; right: 10px; top: 10px;">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+          <form (ngSubmit)="onSubmit()">
+            <div class="form-group">
+              <label for="inputSlug">Slug</label>
+              <input type="text" id="inputSlug" class="form-control" [(ngModel)]="slug" name="slug" required />
+            </div>
+            <div class="form-group">
+              <label for="inputTitle">Title</label>
+              <input type="text" id="inputTitle" class="form-control" [(ngModel)]="title" name="title" required />
+            </div>
+            
+          </form>
+        </div>
+        <div class="modal-footer">
+          <!-- Close and submit buttons aligned to the end of the modal -->
+          <button type="button" class="btn btn-secondary" (click)="closePopup()">Close</button>
+          <button type="submit" class="btn btn-primary" (click)="onSubmit()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal-backdrop show"></div>
+  

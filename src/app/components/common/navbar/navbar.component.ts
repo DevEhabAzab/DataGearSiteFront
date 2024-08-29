@@ -10,6 +10,7 @@ export class NavbarComponent implements OnInit {
 
     // Navbar Sticky
     isSticky: boolean = false;
+    isCreateBlogPopupVisible:boolean=false;
     @HostListener('window:scroll', ['$event'])
     checkScroll() {
         const scrollPosition = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
@@ -40,5 +41,13 @@ export class NavbarComponent implements OnInit {
     toggleClass() {
         this.classApplied = !this.classApplied;
     }
+    openCraeteBlogPopUp(event: MouseEvent) {
+        event.preventDefault();
+        this.isCreateBlogPopupVisible = true;
+      }
+    
+      closePopup() {
+        this.isCreateBlogPopupVisible = false;
+      }
 
 }

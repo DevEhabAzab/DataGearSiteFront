@@ -74,6 +74,7 @@ import { Toolbar } from 'ngx-editor';
 import { QuillModule } from 'ngx-quill';
 import { RichTextEditorComponent2 } from './components/pages/rich-text-editor2/rich-text-editor2.component';
 import { EditorModule } from 'primeng/editor';
+import { CreateBlogPopupComponent } from "./components/common/create-blog-popup/create-blog-popup.component";
 
 @NgModule({
     declarations: [
@@ -134,25 +135,28 @@ import { EditorModule } from 'primeng/editor';
         CheckoutPageComponent,
         ProductsDetailsPageComponent,
         RichTextEditorComponent,
-        RichTextEditorComponent2
+        RichTextEditorComponent2,
+        CreateBlogPopupComponent
         
     ],
     imports: [
-        BrowserModule,
-        AppRoutingModule,
-        CarouselModule,
-        BrowserAnimationsModule,
-        NgxScrollTopModule,
-        HttpClientModule,
-        MarkdownModule.forRoot(),
-        NgxPaginationModule,
-        LightgalleryModule,
-        NgxEditorModule,
-        FormsModule,
-        ReactiveFormsModule,
-        QuillModule,
-        EditorModule
-    ],
+    BrowserModule,
+    FormsModule,
+    AppRoutingModule,
+    CarouselModule,
+    BrowserAnimationsModule,
+    NgxScrollTopModule,
+    HttpClientModule,
+    MarkdownModule.forRoot(),
+    NgxPaginationModule,
+    LightgalleryModule,
+    NgxEditorModule,
+    FormsModule,
+    ReactiveFormsModule,
+    QuillModule,
+    EditorModule,
+     
+],
     providers: [],
     bootstrap: [AppComponent]
 })
