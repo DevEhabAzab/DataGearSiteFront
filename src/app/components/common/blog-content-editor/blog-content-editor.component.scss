@@ -1,0 +1,10 @@
+.p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+//::ng-deep .p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item{width:22px !important;height: 22px !important;}
+::ng-deep .ql-color .ql-picker-options .ql-picker-item {
+    width: 22px !important;
+    height: 22px !important;
+}

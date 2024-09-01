@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { Router,NavigationExtras ,NavigationEnd ,ActivatedRoute} from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import '../../../custom-video-module';  // Import the custom video module
+
 
 @Component({
   selector: 'app-create-blog',
@@ -16,6 +18,16 @@ export class CreateBlogComponent {
     { categoryId: 2, categoryName: 'Lifestyle', blogs: [] },
   ];
   public slug: any;
+  editorConfig = {
+    toolbar: [
+      ['bold', 'italic', 'underline'],        // Toggle buttons
+      [{ 'header': 1 }, { 'header': 2 }],     // Custom button values
+      [{ 'list': 'ordered'}, { 'list': 'bullet' }],
+      ['link', 'image', 'video'],             // Link, Image, and Video
+      [{ 'align': [] }],
+      ['clean']                               // Remove formatting button
+    ]
+  };
   
   constructor(private router: Router,private route: ActivatedRoute,private fb: FormBuilder) {
 
@@ -46,8 +58,20 @@ export class CreateBlogComponent {
       reader.readAsDataURL(file);
     }
   }
+  showPreview = false; // Controls the toggle between editor and preview
 
+// Toggle between preview and editor
+togglePreview(): void {
+  this.showPreview = !this.showPreview;
+  console.log("vaxxxxlue", this.blogForm.controls['content'].value)
+}
+onchangwwwwe(){
+  
+}
   onSubmit(): void {
+    console.log("is valid ", this.blogForm.valid)
+    console.log("is blog ", this.blogForm)
+
     if (this.blogForm.valid) {
       const blogData = this.blogForm.value;
       console.log(blogData);

@@ -75,6 +75,8 @@ import { QuillModule } from 'ngx-quill';
 import { RichTextEditorComponent2 } from './components/pages/rich-text-editor2/rich-text-editor2.component';
 import { EditorModule } from 'primeng/editor';
 import { CreateBlogPopupComponent } from "./components/common/create-blog-popup/create-blog-popup.component";
+import {BlogContentEditorComponent} from "./components/common/blog-content-editor/blog-content-editor.component"
+import { CreateBlogComponent } from './components/pages/create-blog/create-blog.component';
 
 @NgModule({
     declarations: [
@@ -136,7 +138,9 @@ import { CreateBlogPopupComponent } from "./components/common/create-blog-popup/
         ProductsDetailsPageComponent,
         RichTextEditorComponent,
         RichTextEditorComponent2,
-        CreateBlogPopupComponent
+        CreateBlogPopupComponent,
+        BlogContentEditorComponent,
+        CreateBlogComponent
         
     ],
     imports: [
@@ -151,7 +155,6 @@ import { CreateBlogPopupComponent } from "./components/common/create-blog-popup/
     NgxPaginationModule,
     LightgalleryModule,
     NgxEditorModule,
-    FormsModule,
     ReactiveFormsModule,
     QuillModule,
     EditorModule,

@@ -1,14 +1,36 @@
-<!-- <p>create-blog works!  {{slug}}</p>
+<p>create-blog works!  {{slug}}</p>
 <form [formGroup]="blogForm" (ngSubmit)="onSubmit()">
     <div class="form-group">
       <label for="title">Title</label>
       <input id="title" formControlName="title" class="form-control" />
     </div>
   
-    <div class="form-group">
-      <label for="content">Content</label>
-      <quill-editor formControlName="content" [(ngModel)]="blogForm.controls['content'].value"></quill-editor>
+
+
+   <!-- Toggle Button -->
+   <button type="button" class="btn btn-secondary mb-3" (click)="togglePreview()">
+    {{ showPreview ? 'Edit Content' : 'Preview Content' }}
+  </button>
+   <!-- Quill Editor (Hidden when showPreview is true) -->
+   <div class="form-group" *ngIf="!showPreview">
+    <label for="content">Content</label>
+    <quill-editor formControlName="content" [modules]="editorConfig" (onchange)="onchangwwwwe()"></quill-editor>
+  </div>
+
+
+<!-- Preview Section (Hidden when showPreview is false) -->
+<div class="form-group" *ngIf="showPreview">
+    <h4>Preview:</h4>
+    <div class="content-preview" [innerHTML]="blogForm.controls['content'].value">
+      <!-- Display video directly if the URL is detected -->
+      <video *ngIf="blogForm.controls['content'].value?.includes('.mp4')" controls width="100%" height="315">
+        <source [src]="blogForm.controls['content'].value" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <!-- Other content can be displayed here -->
     </div>
+    </div>
+ 
   
     <div class="form-group">
       <label for="category">Category</label>
@@ -26,4 +48,4 @@
   
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
-   -->
+  

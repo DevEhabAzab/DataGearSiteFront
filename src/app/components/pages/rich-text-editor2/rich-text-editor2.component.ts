@@ -1,4 +1,4 @@
-import { Component, OnInit, OnDestroy,ElementRef, Renderer2, AfterViewInit ,ViewChild} from '@angular/core';
+import { Component, OnInit, OnDestroy,ElementRef, Renderer2, AfterViewInit ,ViewChild, input} from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { QuillEditorComponent } from 'ngx-quill';
 
@@ -14,6 +14,8 @@ export class RichTextEditorComponent2 implements OnInit ,AfterViewInit {
  textColor:any;
  private styleId = 'dynamic-style';
  @ViewChild('#ql-picker-options-2') myElement!: ElementRef;
+
+
 
  constructor(private el: ElementRef, private renderer: Renderer2) {}
 
