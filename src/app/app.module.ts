@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { MarkdownModule } from 'ngx-markdown';
 import { NgxScrollTopModule } from 'ngx-scrolltop';
 import { CarouselModule } from 'ngx-owl-carousel-o';
@@ -77,6 +77,16 @@ import { EditorModule } from 'primeng/editor';
 import { CreateBlogPopupComponent } from "./components/common/create-blog-popup/create-blog-popup.component";
 import {BlogContentEditorComponent} from "./components/common/blog-content-editor/blog-content-editor.component"
 import { CreateBlogComponent } from './components/pages/create-blog/create-blog.component';
+import { SelectButtonModule } from 'primeng/selectbutton'; // Import SelectButtonModule
+import { InputTextModule } from 'primeng/inputtext';
+import { AnimationLottieComponent } from './components/common/animation-lottie/animation-lottie.component';
+
+import player from 'lottie-web';
+
+export function playerFactory() {
+  return player;
+}
+
 
 @NgModule({
     declarations: [
@@ -140,7 +150,10 @@ import { CreateBlogComponent } from './components/pages/create-blog/create-blog.
         RichTextEditorComponent2,
         CreateBlogPopupComponent,
         BlogContentEditorComponent,
-        CreateBlogComponent
+        CreateBlogComponent,
+        AnimationLottieComponent,
+
+
         
     ],
     imports: [
@@ -158,9 +171,18 @@ import { CreateBlogComponent } from './components/pages/create-blog/create-blog.
     ReactiveFormsModule,
     QuillModule,
     EditorModule,
+    SelectButtonModule,
+    InputTextModule,
+
+
+
      
 ],
-    providers: [],
-    bootstrap: [AppComponent]
+    providers: [
+    
+    ],
+    bootstrap: [AppComponent],
+    schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+
 })
 export class AppModule { }

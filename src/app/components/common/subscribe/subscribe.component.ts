@@ -9,15 +9,16 @@ import { SubscribeService } from './subscribe.service';
 })
 export class SubscribeComponent implements OnInit {
 
-	public subscribeData: any;
+	// public subscribeData: any;
 
     constructor(
         public router: Router,
         private content: SubscribeService
     ) {
-        this.content.getData().subscribe((subscribeData: any) => {
-            this.subscribeData = subscribeData.data.attributes;
-        });
+        // this.content.getData().subscribe((subscribeData: any) => {
+        //     this.subscribeData = subscribeData.data.attributes;
+        // });
+        console.log("router ", router.url)
     }
 
     ngOnInit(): void {}

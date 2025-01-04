@@ -14,7 +14,7 @@ export class FeaturesComponent implements OnInit {
         private content: FeaturesService
     ) {
         this.content.getData().subscribe((featuresData: any) => {
-            this.featuresData = featuresData.data.attributes;
+            this.featuresData = featuresData;
         });
     }
 

@@ -1,51 +1,70 @@
-<p>create-blog works!  {{slug}}</p>
-<form [formGroup]="blogForm" (ngSubmit)="onSubmit()">
-    <div class="form-group">
-      <label for="title">Title</label>
-      <input id="title" formControlName="title" class="form-control" />
-    </div>
-  
+<!-- Toggle Button -->
+<div class="text-center">
+<button type="button" class="btn btn-secondary mb-3" (click)="togglePreview()">
+  {{ showPreview ? 'Edit Content' : 'Preview Content' }}
+</button>
+</div>
+<!-- <p>create-blog works!  {{slug}}</p> -->
 
+ 
 
-   <!-- Toggle Button -->
-   <button type="button" class="btn btn-secondary mb-3" (click)="togglePreview()">
-    {{ showPreview ? 'Edit Content' : 'Preview Content' }}
-  </button>
-   <!-- Quill Editor (Hidden when showPreview is true) -->
-   <div class="form-group" *ngIf="!showPreview">
-    <label for="content">Content</label>
-    <quill-editor formControlName="content" [modules]="editorConfig" (onchange)="onchangwwwwe()"></quill-editor>
+<form [formGroup]="blogForm" (ngSubmit)="onSubmit()" *ngIf="!showPreview" class="container mt-4">
+
+  <!-- Image Upload formControlName="imageUrl" [(ngModel)]="blogForm.controls['imageUrl'].value"-->
+  <div class="form-group mb-3">
+    <label for="imageUrl">Image</label>
+    <input id="imageUrl"   type="file" (change)="onFileChange($event)" class="form-control" />
   </div>
+
+  <!-- Title -->
+  <div class="form-group mb-3">
+    <label for="title">Title</label>
+    <input id="title" [(ngModel)]="blogForm.controls['title'].value"  formControlName="title" pInputText class="form-control" />
+  </div>
+
+  <!-- Category -->
+  <div class="form-group mb-3">
+    <label for="category">Category</label>
+    <select id="category" [(ngModel)]="blogForm.controls['category'].value" formControlName="category" class="form-control">
+      <option *ngFor="let category of categories" [value]="category.categoryId">
+        {{ category.categoryName }}
+      </option>
+    </select>
+  </div>
+
+  <!-- Content -->
+  <div class="form-group mb-3">
+    <label for="content">Content</label>
+    <quill-editor 
+    id="editor-container"
+      formControlName="content" 
+      [(ngModel)]="blogForm.controls['content'].value"  
+      [modules]="editorConfig"  
+      style="width: 100%; height: 300px;">
+    </quill-editor>
+  </div>
+
+  <!-- Submit Button -->
+  <!-- <div class="form-group mt-4">
+  </div> -->
+ 
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button type="submit" class="btn btn-primary me-md-2">Submit</button>
+
+      <!-- <button class="btn btn-primary" type="button">Button</button> -->
+    </div>
+</form>
 
 
 <!-- Preview Section (Hidden when showPreview is false) -->
-<div class="form-group" *ngIf="showPreview">
-    <h4>Preview:</h4>
-    <div class="content-preview" [innerHTML]="blogForm.controls['content'].value">
-      <!-- Display video directly if the URL is detected -->
-      <video *ngIf="blogForm.controls['content'].value?.includes('.mp4')" controls width="100%" height="315">
-        <source [src]="blogForm.controls['content'].value" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <!-- Other content can be displayed here -->
-    </div>
-    </div>
- 
-  
-    <div class="form-group">
-      <label for="category">Category</label>
-      <select id="category" formControlName="categoryId" class="form-control">
-        <option *ngFor="let category of categories" [value]="category.categoryId">
-          {{ category.categoryName }}
-        </option>
-      </select>
-    </div>
-  
-    <div class="form-group">
-      <label for="image">Image</label>
-      <input id="image" type="file" (change)="onFileChange($event)" class="form-control" />
-    </div>
-  
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
-  
+<div class="form-group" *ngIf="showPreview" style="width:100%">
+  <img [src]="blogForm.controls['imageUrl'].value"  />
+  <h2 [innerText]="blogForm.controls['title'].value"></h2>
+  <div class="content-preview" [innerHTML]="blogForm.controls['content'].value">
+   
+    <!-- Other content can be displayed here -->
+  </div>
+</div>
+
+<app-animation-lottie [isLoading]="isLoading"></app-animation-lottie >

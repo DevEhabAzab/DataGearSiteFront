@@ -5,6 +5,7 @@ import { environment } from '../../../../../../src/environments/environment';
 @Injectable({
     providedIn: 'root'
 })
+
 export class HomeoneFeaturesService {
 
     private API_URL= environment.API_URL;
@@ -14,6 +15,7 @@ export class HomeoneFeaturesService {
     ) {}
 
     getData(){
+        
         let url = `${this.API_URL}/home-demo-one-feature?populate=*`;
         return this.http.get(url);
     }

@@ -1,0 +1,2343 @@
+[
+    {
+        "slug":"Data_Gear_User_Management_Console",
+        "icon":"flaticon-business",
+        "title": "Data Gear User Management Console: Centralized Control with Maker-Checker Authorization",
+        "shortDescription":"This is short desc for Data Gear User Management Console ",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "description": "<p>Lorem ipsum dolor sit amet\u002C consectetur adipiscing elit\u002C sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam\u002C quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat <a routerLink=\"/\">cupidatat</a> non proident\u002C sunt in culpa qui officia deserunt mollit anim id est laborum minim veniam.</p><p>There are many variations of passages of Lorem Ipsum available\u002C but the majority have suffered alteration in some form\u002C by injected humour\u002C or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum\u002C you need to be sure there isn't anything embarrassing hidden in the middle of text.</p><ul> <li>A lack of understanding of business and customer insights</li>            <li>Uncertainty about current or future market realities</li>            <li>An overall lack of business agility across employees and technology</li><li>Difficulty innovating or quickly launching new capabilities</li>            <li>Poor strategy execution and value realization</li>            <li>A culture of complacency or change fatigue</li>        </ul><p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary\u002C making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words\u002C combined with a handful of model sentence structures\u002C to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition.</p><p>It is a long established fact that a <strong>reader</strong> will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribut ion of letters\u002C as opposed to using 'Content here\u002C content here'\u002C making it look like readable.</p><p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages\u002C and more recently with desktop publishing software like aldu.</p>",
+        "image": "assets/img/services6.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            },
+            {
+                "icon": "fact1.png",
+                "title": "Customers",
+                "number": 534,
+                "subTitle": "Active Customers"
+            },
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            },
+            {
+                "icon": "fact1.png",
+                "title": "Customers",
+                "number": 534,
+                "subTitle": "Active Customers"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Data_Gear_A.R.T",
+        "icon":"flaticon-business",
+        "title": "Data Gear A.R.T: Empowering Decision-Making with Advanced Business Intelligence Tools",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "shortDescription":"This is short desc for Data Gear A.R.TData Gear A.R.T ",
+        "description": "Unlock actionable insights with Data Gear A.R.T. Our Business Intelligence tools offer data visualization, predictive analytics, and KPI tracking to enhance decision-making and optimize business performance.",
+        "image": "services6.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Data_Gear_Customer_Risk_Profiling_System_SEO",
+        "icon":"flaticon-business",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "title": " Data Gear Customer Risk Profiling System_SEO",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Optimize your bank's customer risk management with Data Gear Customer Risk Profiling System. Real-time and offline risk rating, continuous monitoring, and seamless integration with ECM and Workflow to safeguard financial institutions.",
+        "image": " data gear customer risk profiling system_seo.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Meta_Description",
+        "icon":"flaticon-business",
+        "title": "Meta Description: Discover Data Gear's AML TBML solution, designed to help financial institutions detect and prevent trade-based money laundering. Learn about TBML techniques, challenges, and market trends.",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Content (optimized)",
+        "image": "dgtb.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Data_Gear_Transliteration_Engine",
+        "icon":"flaticon-business",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "title": "Data Gear Transliteration Engine: Accurate Arabic and English Watchlist Screening",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Data Gear's Transliteration Engine offers precise Arabic-English watchlist screening, automatically handling transliterations to reduce false positives and improve compliance accuracy.",
+        "image": "dgtransliteration.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"KYC_solution",
+        "icon":"flaticon-business",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "title": "Meta Description: Discover Data Gear's eKYC solution, designed to streamline the Know Your Customer process and mitigate risks associated with financial transactions.",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Content (optimized)",
+        "image": "dgkyc.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"GO_AML",
+        "icon":"flaticon-business",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "title": "Data Gear Central Compliance Reporting (GO-AML): Streamlining AML Efforts",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Discover Data Gear's Central Compliance Reporting (GO-AML) solution, designed to help Financial Intelligence Units combat money laundering and terrorist financing efficiently.",
+        "image": "dggoaml.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"FATCA",
+        "icon":"flaticon-business",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "title": "Data Gear FATCA Compliance: Navigating Foreign Account Reporting Requirements",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Understand the Foreign Account Tax Compliance Act (FATCA) with Data Gear. Learn how FATCA impacts U.S. persons and foreign financial institutions and ensure compliance with IRS reporting requirements.",
+        "image": "dgfatca.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Alert_Suppression",
+        "icon":"flaticon-business",
+        "title": "Data Gear AI-Powered Alert Suppression and Segmentation Solutions",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Reduce false positives and enhance AML compliance with Data Gear's AI-powered Alert Suppression and Segmentation solutions. Leverage advanced machine learning to boost efficiency, prioritize high-risk alerts, and minimize compliance costs.",
+        "image": "dgas.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks": {
+            "image": "assets/img/how-its-work.jpg",
+            "workplan": [
+              {
+                "icon": "01",
+                "title": "Identify the HR Reqirement",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "02",
+                "title": "Identify Possible Sources of HR Supply",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "03",
+                "title": "Communicating the Information",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "04",
+                "title": "Receiving Online Application",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "05",
+                "title": "Deal Structuring",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "06",
+                "title": "Development of Financial Models",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              }
+            ]
+          },
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Anti_Fraud",
+        "icon":"flaticon-business",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "title": "Data Gear Real Time Anti-Fraud Solution: Advanced AI-Powered Fraud Detection",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Explore Data Gear's Real Time Anti-Fraud Solution, utilizing AI to monitor transactions, minimize false positives, and enhance fraud detection for financial institutions.",
+        "image": "realtimefraud.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks": {
+            "image": "assets/img/how-its-work.jpg",
+            "workplan": [
+              {
+                "icon": "01",
+                "title": "Identify the HR Reqirement",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "02",
+                "title": "Identify Possible Sources of HR Supply",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "03",
+                "title": "Communicating the Information",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "04",
+                "title": "Receiving Online Application",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "05",
+                "title": "Deal Structuring",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              },
+              {
+                "icon": "06",
+                "title": "Development of Financial Models",
+                "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+              }
+            ]
+          },
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Data_Gear_Enterprise_Workflow_Management",
+        "icon":"flaticon-business",
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Data Gear\u2019s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management.",
+        "image": "dgpbm.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"ECM_SEO",
+        "icon":"flaticon-business",
+        "title": "Data Gear ECM_SEO",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Description not available for this service.",
+        "image": "data gear ecm_seo.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Sanction_SEO",
+        "icon":"flaticon-business",
+        "title": "Data Gear Sanction_SEO",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Description not available for this service.",
+        "image": "data gear sanction_seo.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"Anti_Fraud_Solution_SEO",
+        "icon":"flaticon-business",
+        "title": "Data Gear Anti-Fraud Solution_SEO",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "Description not available for this service.",
+        "image": "data gear anti-fraud solution_seo.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    },
+    {
+        "slug":"ALM_SEO",
+        "icon":"flaticon-business",
+        "shortTitle":"This is short desc for Data Gear User Management Console ",
+        "title": "Data Gear AML_SEO",
+        "shortDescription":"This is short desc for Data Gear Customer Risk Profiling ",
+        "description": "\"Explore Data Gear's cutting-edge Anti-Money Laundering Solution designed to detect and prevent financial crimes. Secure your business with advanced technology tailored to compliance and regulatory standards.\"",
+        "image": "data gear alm_seo.jpg",
+        "video":"https://drive.google.com/file/d/1Jb_VVMrMRtagD2GPbe5q1PPmKk1hsWZB/view?usp=sharing",
+        "quotes":["I used to be really shy, and I didn’t know how to deal with all of the drama in high school.","DataGear gave me the confidence to succeed in this World."],
+
+        "howItWorks":{
+  "image": "assets/img/how-its-work.jpg",
+  "workplan": [
+    {
+      "icon": "01",
+      "title": "Identify the HR Reqirement",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "02",
+      "title": "Identify Possible Sources of HR Supply",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "03",
+      "title": "Communicating the Information",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "04",
+      "title": "Receiving Online Application",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "05",
+      "title": "Deal Structuring",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    },
+    {
+      "icon": "06",
+      "title": "Development of Financial Models",
+      "paragraph": "Lorem ipsum dolor sit amet, consetet ur sadipscing elitr, sed diam nonumy eirmod tempor."
+    }
+  ]
+},
+        "pricingData": {
+    "title": "Pricing Plans",
+    "plans": [
+      {
+        "title": "Free",
+        "subTitle": "Give Qian a try for free",
+        "price": "0",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "1 active project" },
+          { "icon": "bx bx-check", "title": "Limited blocks" },
+          { "icon": "bx bx-x", "title": "Conditions" },
+          { "icon": "bx bx-x", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Starter",
+        "subTitle": "Best for individual designers",
+        "price": "49",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "1 seat" },
+          { "icon": "bx bx-check", "title": "3 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Conditions" },
+          { "icon": "bx bx-check", "title": "CSV export" },
+          { "icon": "bx bx-x", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      },
+      {
+        "title": "Team",
+        "subTitle": "Get your team together",
+        "price": "39",
+        "subText": "Pricing includes coverage for users",
+        "features": [
+          { "icon": "bx bx-check", "title": "3+ seat" },
+          { "icon": "bx bx-check", "title": "10 active project" },
+          { "icon": "bx bx-check", "title": "Unlimited blocks" },
+          { "icon": "bx bx-check", "title": "Team management" },
+          { "icon": "bx bx-check", "title": "Customization" },
+          { "icon": "bx bx-check", "title": "Password protection" }
+        ],
+        "buttonLink": "/contact",
+        "buttonText": "Get Started"
+      }
+    ]
+  },
+        "funfactsData": [
+            {
+                "icon": "fact1.png",
+                "title": "Users",
+                "number": 1000,
+                "subTitle": "Active Users"
+            }
+        ],
+        "partnerData": [
+      {
+        "image": "assets/img/partner/partner1.png",
+        "name": "Partner 1"
+      },
+      {
+        "image": "assets/img/partner/partner2.png",
+        "name": "Partner 2"
+      },
+      {
+        "image": "assets/img/partner/partner3.png",
+        "name": "Partner 3"
+      },
+      {
+        "image": "assets/img/partner/partner4.png",
+        "name": "Partner 4"
+      },
+      {
+        "image": "assets/img/partner/partner5.png",
+        "name": "Partner 5"
+      },
+      {
+        "image": "assets/img/partner/partner6.png",
+        "name": "Partner 6"
+      }
+    ],
+    "seoConfig":{
+        "title": "Data Gear Enterprise Workflow Management: Flexible BPM Solutions for Enhanced Efficiency",
+        "metaTags": [
+          {
+            "name": "description",
+            "content": "Data Gear’s Enterprise Workflow Management offers flexible BPM solutions designed to handle both routine and non-routine tasks. Empower your business processes with real-time collaboration, task allocation, and end-to-end process management."
+          },
+          {
+            "name": "keywords",
+            "content": "Enterprise Workflow Management, BPM Solutions,Business Process Management, Workflow Automation"
+          },
+          {
+            "name": "author",
+            "content": "Data Gear"
+          },
+          {
+            "name": "robots",
+            "content": "index, follow"
+          }
+        ]
+      }
+    }
+]

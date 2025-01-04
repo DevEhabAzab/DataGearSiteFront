@@ -4,7 +4,7 @@
 :root {
     --fontFamily: 'Montserrat', sans-serif;
     --headingFontFamily: 'Cabin', sans-serif;
-    --primaryColor: #FA3308;
+    --primaryColor: #0451a4;//was FA3308
     --secondaryColor: #00569A;
     --paragraphColor: #606060;
     --whiteColor: #ffffff;
@@ -66,8 +66,8 @@ p {
 }
 .ptb-100 {
     padding: {
-        top: 100px;
-        bottom: 100px;
+        top: 50px;//was100
+        bottom: 50px;//was100
     };
 }
 .pt-100 {
@@ -704,8 +704,8 @@ p {
         size: cover;
     };
     padding: {
-        top: 150px;
-        bottom: 150px;
+        top: 50px;//was150
+        bottom: 50px;//was150
     };
     .shape5 {
         left: auto;
@@ -1674,9 +1674,9 @@ blockquote, .blockquote {
     }
 
     .page-title-area {
-        padding: {
+       padding: {
             top: 100px;
-            bottom: 100px;
+           bottom: 100px;
         };
     }
     .page-title-content {

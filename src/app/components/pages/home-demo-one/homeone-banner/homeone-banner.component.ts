@@ -15,12 +15,16 @@ export class HomeoneBannerComponent implements OnInit {
     constructor(
         private content: HomeoneBannerService
 	) {
-        this.content.getData().subscribe((bannerData: any) => {
-            this.bannerData = bannerData.data.attributes;
-        });
-        this.content.getListsData().subscribe((bannerListsData: any) => {
-            this.bannerListsData = bannerListsData.data.attributes;
-        });
+        // this.content.getData().subscribe((bannerData: any) => {
+        //     this.bannerData = bannerData.data.attributes;
+        // });
+        // this.content.getListsData().subscribe((bannerListsData: any) => {
+        //     this.bannerListsData = bannerListsData.data.attributes;
+        // });
+		this.content.getContent().subscribe((data) => {
+			this.bannerData = data.bannerData;
+			this.bannerListsData = data.bannerListsData;
+		  });
 	}
 
     ngOnInit(): void {}

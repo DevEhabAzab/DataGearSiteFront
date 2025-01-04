@@ -1,0 +1,50 @@
+{
+    "bannerData": {
+      "title": "Change Your Trajectory",
+      "buttonText": "View More",
+      "buttonLink": "/services",
+      "homeSlides": [
+        {
+          "backgroundImage": {
+            "data": {
+              "attributes": {
+                "url": "assets/img/banner/banner-bg1.jpg"
+              }
+            }
+          },
+          "subTitle": "THROUGH CHANGES",
+          "title": "Helping Small Business Grow Big",
+          "paragraph": "These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammeled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
+          "buttonText": "Discover More",
+          "buttonLink": "/about"
+        },
+        {
+          "backgroundImage": {
+            "data": {
+              "attributes": {
+                "url": "assets/img/banner/banner-bg2.jpg"
+              }
+            }
+          },
+          "subTitle": "WE FOCUS ON RESULTS",
+          "title": "Only High-Quality Ideas & Results",
+          "paragraph": "These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammeled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.",
+          "buttonText": "Discover More",
+          "buttonLink": "/about"
+        }
+      ]
+    },
+    "bannerListsData": {
+      "lists": [
+        { "title": "Equity and Inclusion" },
+        { "title": "Future of Work" },
+        { "title": "Transformation" },
+        { "title": "Executive Coaching" },
+        { "title": "Private Equity" },
+        { "title": "Leadership" },
+        { "title": "Post-merger Integration" },
+        { "title": "Business Strategy" }
+      ]
+    }
+}
+  

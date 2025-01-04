@@ -4,9 +4,9 @@
             <span class="sub-title">{{testimonialsData.subTitle}}</span>
             <h2>{{testimonialsData.title}}</h2>
         </div>
-        <div class="testimonials-slides" *ngIf="testimonialsSlideData">
+        <div class="testimonials-slides" *ngIf="testimonialsData.slides">
             <owl-carousel-o [options]="testimonialsSlides">
-                <ng-template carouselSlide *ngFor="let content of testimonialsSlideData.slides">
+                <ng-template carouselSlide *ngFor="let content of testimonialsData.slides">
                     <div class="single-testimonials-box">
                         <p>{{content.desc}}</p>
                         <div class="client-info d-flex align-items-center">

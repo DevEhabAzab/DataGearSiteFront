@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router ,ActivatedRoute} from '@angular/router';
 import { BlogService } from './blog.service';
 
 @Component({
@@ -10,16 +10,28 @@ import { BlogService } from './blog.service';
 export class BlogComponent implements OnInit {
 
 	public blogData: any;
-
+    error: any;
+    public slug: any;
     constructor(
+        private route: ActivatedRoute,
         public router: Router,
 		private content: BlogService
     ) {
-		this.content.getData().subscribe((blogData: any) => {
-            this.blogData = blogData.data;
-        });
+		// this.content.getData().subscribe((blogData: any) => {
+        //     this.blogData = blogData.data;
+        // });
     }
 
-    ngOnInit(): void {}
+    async ngOnInit() {
+        try {
+            this.slug =this.route.snapshot.paramMap.get('slug')!;
+          // Fetch initial data
+          this.blogData = await this.content.getDataBySlugAsync(this.slug);
+          console.log("data ",this.blogData)
+        } catch (error) {
+          this.error = error;
+          console.error('Error in component', error);
+        }
+      }
 
 }

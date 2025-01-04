@@ -1,0 +1,25 @@
+{
+    "backgroundImage": "assets/img/bg1.jpg",
+    "items": [
+    {
+        "number": 175,
+        "sign": true,
+        "title": "ACTIVE PROJECT"
+    },
+    {
+        "number": 30,
+        "title": "YEARS OF EXPERIENCE"
+    },
+    {
+        "number": 150,
+        "sign": true,
+        "title": "EXPERT TEAM"
+    }
+    ],
+    "image1": "assets/img/experience-funfacts/funfacts1.jpg",
+    "image2": "assets/img/experience-funfacts/funfacts2.jpg",
+    "image3": "assets/img/experience-funfacts/funfacts3.jpg",
+    "image4": "assets/img/experience-funfacts/funfacts4.jpg",
+    "image5": "assets/img/experience-funfacts/funfacts5.jpg"
+    
+  }

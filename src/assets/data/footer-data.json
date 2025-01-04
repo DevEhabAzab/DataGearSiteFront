@@ -1,0 +1,61 @@
+{
+    "blackLogo": {
+      "data": {
+        "attributes": {
+          "url": "assets/img/logo.png"
+        }
+      }
+    },
+    "whiteLogo": {
+      "data": {
+        "attributes": {
+          "url": "assets/img/white-logo.png"
+        }
+      }
+    },
+    "paragraph": "Lorem ipsum dolor sit amet, consectet ur, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim.",
+    "socials": [
+      {
+        "link": "https://web.facebook.com/datagearbiEG",
+        "icon": "flaticon-facebook"
+      },
+      {
+        "link": "https://www.linkedin.com/company/datagear",
+        "icon": "flaticon-linkedin"
+      },
+      {
+        "link": "#",
+        "icon": "flaticon-twitter"
+      },
+      {
+        "link": "#",
+        "icon": "flaticon-instagram"
+      }
+    ],
+    "aboutUsLinks": [
+      { "label": "Home Page", "routerLink": "/" },
+      { "label": "About Us", "routerLink": "/about" },
+      { "label": "Our Services", "routerLink": "/services" },
+      { "label": "Buy Now", "routerLink": "/contact" },
+      { "label": "Subscribe Now", "routerLink": "/contact" }
+    ],
+    "resourcesLinks": [
+      { "label": "Business Planning", "routerLink": "/service/business-strategy" },
+      { "label": "Financial Advices", "routerLink": "/service/business-strategy" },
+      { "label": "Business Strategy", "routerLink": "/service/business-strategy" },
+      { "label": "Operating Model", "routerLink": "/service/business-strategy" },
+      { "label": "Sales & Marketing", "routerLink": "/service/business-strategy" }
+    ],
+    "quickLinks": [
+      { "label": "Home Page", "routerLink": "/" },
+      { "label": "Site Map", "routerLink": "/contact" },
+      { "label": "Privacy Policy", "routerLink": "/privacy-policy" },
+      { "label": "Terms & Conditions", "routerLink": "/terms-conditions" },
+      { "label": "Purchase Guide", "routerLink": "/privacy-policy" }
+    ],
+    "location": "2750 Quadra Street Victoria, Canada.",
+    "email": "hello@qian.com",
+    "phoneNumber": "+1-485-456-0102",
+    "faxNumber": "+1-0785 4578964"
+  }
+  

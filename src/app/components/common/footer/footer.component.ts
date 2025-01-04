@@ -16,7 +16,7 @@ export class FooterComponent implements OnInit {
         private content: FooterService
     ) {
         this.content.getData().subscribe((footerData: any) => {
-            this.footerData = footerData.data.attributes;
+            this.footerData = footerData;
         });
     }
 

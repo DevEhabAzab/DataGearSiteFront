@@ -12,15 +12,15 @@
             <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let content of servicesData.slice(0, 6)">
                 <div class="single-services-box">
                     <div class="icon">
-                        <i class="{{content.attributes.icon}}"></i>
+                        <i class="{{content.icon}}"></i>
                     </div>
                     <h3>
-                        <a [routerLink]="['/service', content.attributes.slug]">
-                            {{content.attributes.title}}
+                        <a [routerLink]="['/service', content.slug]">
+                            {{content.shortTitle}}
                         </a>
                     </h3>
-                    <p>{{content.attributes.shortDesc}}</p>
-                    <a [routerLink]="['/service', content.attributes.slug]" class="link-btn">
+                    <p>{{content.shortDescription}}</p>
+                    <a [routerLink]="['/service', content.slug]" class="link-btn">
                         Read More <i class="flaticon-right"></i>
                     </a>
                 </div>
@@ -51,16 +51,16 @@
                 <ng-template carouselSlide *ngFor="let content of servicesData.slice(0, 9)">
                     <div class="single-services-item">
                         <div class="image">
-                            <img [src]="content.attributes.image.data.attributes.url" alt="services-image">
+                            <img [src]="content.image" alt="services-image">
                         </div>
                         <div class="content">
                             <h3>
-                                <a [routerLink]="['/service', content.attributes.slug]">
-                                    {{content.attributes.title}}
+                                <a [routerLink]="['/service', content.slug]">
+                                    {{content.shortTitle}}
                                 </a>
                             </h3>
-                            <p>{{content.attributes.shortDesc}}</p>
-                            <a [routerLink]="['/service', content.attributes.slug]" class="link-btn">
+                            <p>{{content.shortDesc}}</p>
+                            <a [routerLink]="['/service', content.slug]" class="link-btn">
                                 Read More <i class="flaticon-right"></i>
                             </a>
                         </div>

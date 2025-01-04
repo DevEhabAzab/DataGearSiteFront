@@ -16,7 +16,7 @@ export class TeamComponent implements OnInit {
         private content: TeamService
     ) {
         this.content.getData().subscribe((teamData: any) => {
-            this.teamData = teamData.data.attributes;
+            this.teamData = teamData;
         });
     }
 

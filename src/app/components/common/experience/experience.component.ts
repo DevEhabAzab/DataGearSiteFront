@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ExperienceService } from './experience.service';
+import { ExperienceFunFactsModel, ExperienceService } from './experience.service';
 
 @Component({
     selector: 'app-experience',
@@ -8,13 +8,13 @@ import { ExperienceService } from './experience.service';
 })
 export class ExperienceComponent implements OnInit {
 
-	public experienceData: any;
+	public experienceData!: ExperienceFunFactsModel;
 
     constructor(
         private content: ExperienceService
     ) {
         this.content.getData().subscribe((experienceData: any) => {
-            this.experienceData = experienceData.data.attributes;
+            this.experienceData = experienceData
         });
     }
 

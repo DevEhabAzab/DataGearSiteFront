@@ -48,7 +48,7 @@ const routes: Routes = [
     {path: 'products', component: ProductsPageComponent},
     {path: 'cart', component: CartPageComponent},
     {path: 'checkout', component: CheckoutPageComponent},
-    {path: 'products-details', component: ProductsDetailsPageComponent},
+    {path: 'products-details/:slug', component: ProductsDetailsPageComponent},
     {path: 'profile-authentication', component: ProfileAuthenticationPageComponent},
     {path: 'forgot-password', component: ForgotPasswordPageComponent},
     {path: 'privacy-policy', component: PrivacyPolicyPageComponent},

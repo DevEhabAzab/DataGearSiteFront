@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HomeoneFeaturesService } from './homeone-features.service';
+import { FeaturesService } from 'src/app/components/common/features/features.service';
 
 @Component({
     selector: 'app-homeone-features',
@@ -11,10 +12,10 @@ export class HomeoneFeaturesComponent implements OnInit {
 	public featuresData: any;
 
     constructor(
-        private content: HomeoneFeaturesService
+        private content: FeaturesService
     ) {
         this.content.getData().subscribe((featuresData: any) => {
-            this.featuresData = featuresData.data.attributes;
+            this.featuresData = featuresData.items;
         });
     }
 

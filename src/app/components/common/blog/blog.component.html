@@ -13,23 +13,23 @@
             <div class="col-lg-4 col-md-6" *ngFor="let content of blogData.slice(0, 3)">
                 <div class="single-blog-post">
                     <div class="image">
-                        <a [routerLink]="['/blog', content.attributes.slug]" class="d-block">
-                            <img [src]="content.attributes.image.data.attributes.url" alt="blog-image">
+                        <a [routerLink]="['/blog', content.slug]" class="d-block">
+                            <img [src]="content.imageUrl" alt="blog-image">
                         </a>
                     </div>
                     <div class="content">
                         <ul class="meta">
                             <li>
-                                <i class="flaticon-date"></i> {{content.attributes.updatedAt | date}}
+                                <i class="flaticon-date"></i> {{content.updatedAt | date}}
                             </li>
                         </ul>
                         <h3>
-                            <a [routerLink]="['/blog', content.attributes.slug]">
-                                {{content.attributes.title}}
+                            <a [routerLink]="['/blog', content.slug]">
+                                {{content.title}}
                             </a>
                         </h3>
-                        <p>{{content.attributes.shortDesc}}</p>
-                        <a [routerLink]="['/blog', content.attributes.slug]" class="link-btn">
+                        <!-- <p>{{content.attributes.shortDesc}}</p> -->
+                        <a [routerLink]="['/blog', content.slug]" class="link-btn">
                             Read More <i class="flaticon-right"></i>
                         </a>
                     </div>

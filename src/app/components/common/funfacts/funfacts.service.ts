@@ -13,9 +13,9 @@ export class FunfactsService {
         private http : HttpClient
     ) {}
 
-    getData(){
-        let url = `${this.API_URL}/funfact?populate=*`;
-        return this.http.get(url);
-    }
+    // getData(slug:string    ){
+    //     let url = `'assets/data/services_data.json'`//`${this.API_URL}/funfact?populate=*`;
+    //     return this.http.get<>(url);
+    // }
 
 }

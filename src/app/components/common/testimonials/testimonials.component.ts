@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { OwlOptions } from 'ngx-owl-carousel-o';
-import { TestimonialsService } from './testimonials.service';
+import { TestimonialsService ,TestimonialsData } from './testimonials.service';
 
 @Component({
     selector: 'app-testimonials',
@@ -15,12 +15,12 @@ export class TestimonialsComponent implements OnInit {
     constructor(
         private content: TestimonialsService
 	) {
-        this.content.getData().subscribe((testimonialsData: any) => {
-            this.testimonialsData = testimonialsData.data.attributes;
+        this.content.getData().subscribe((testimonialsData: TestimonialsData) => {
+            this.testimonialsData = testimonialsData;
         });
-        this.content.getSlideData().subscribe((testimonialsSlideData: any) => {
-            this.testimonialsSlideData = testimonialsSlideData.data.attributes;
-        });
+        // this.content.getSlideData().subscribe((testimonialsSlideData: any) => {
+        //     this.testimonialsSlideData = testimonialsSlideData.data.attributes;
+        // });
 	}
 
     ngOnInit(): void {}

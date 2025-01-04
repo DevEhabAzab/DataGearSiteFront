@@ -14,7 +14,8 @@ export class ServicesPageOneComponent implements OnInit {
 		private content: ServicesService
     ) {
 		this.content.getData().subscribe((servicesData: any) => {
-            this.servicesData = servicesData.data;
+            console.log("data   ->  " ,servicesData )
+            this.servicesData = servicesData;
         });
     }
 

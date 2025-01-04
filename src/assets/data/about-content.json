@@ -1,0 +1,25 @@
+{
+    "aboutData": {
+      "backgroundImage": {
+        "data": {
+          "attributes": {
+            "url": "assets/img/bg2.jpg"
+          }
+        }
+      },
+      "image": {
+        "data": {
+          "attributes": {
+            "url": "assets/img/about/about1.jpg"
+          }
+        }
+      },
+      "subTitle": "ABOUT US",
+      "title": "We Offer Professional Solutions For Your Business",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamt. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non provident.",
+      "buttonText": "More About Our Company",
+      "buttonLink": "/about"
+    }
+    
+  }
+  

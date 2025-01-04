@@ -14,7 +14,7 @@ export class FooterService {
     ) {}
 
     getData(){
-        let url = `${this.API_URL}/footer?populate=*`;
+        let url = 'assets/data/footer-data.json'//`${this.API_URL}/footer?populate=*`;
         return this.http.get(url);
     }
 

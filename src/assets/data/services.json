@@ -1,0 +1,216 @@
+[
+      {
+        "title": "Web Development",
+        "description": "Complete web development services.",
+        "image": "assets/img/services/web-development.jpg",
+        "howItWorks": [
+          {
+            "image": "assets/img/how-it-works/web-dev.jpg",
+            "workplan": [
+              {
+                "icon": "icon-design.png",
+                "title": "Design",
+                "paragraph": "We start with designing the user interface."
+              },
+              {
+                "icon": "icon-develop.png",
+                "title": "Development",
+                "paragraph": "Our team builds robust backend systems."
+              }
+            ]
+          }
+        ],
+        "pricingData": {
+          "title": "Web Development Plans",
+          "plans": [
+            {
+              "title": "Basic",
+              "subTitle": "Starter plan",
+              "price": 500,
+              "subText": "Basic website with limited features.",
+              "features": [
+                { "icon": "feature-ux.png", "title": "User-Friendly Design" },
+                { "icon": "feature-support.png", "title": "Basic Support" }
+              ],
+              "buttonLink": "/signup/basic",
+              "buttonText": "Get Started"
+            }
+          ]
+        },
+        "funfactsData": [
+          {
+            "icon": "funfact-projects.png",
+            "title": "Projects Completed",
+            "number": 200,
+            "subTitle": "in 2023"
+          }
+        ],
+        "partnerData": [
+          {
+            "image": "partner-tech.png",
+            "name": "Tech Solutions Inc."
+          }
+        ]
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "Customized mobile app solutions.",
+        "image": "assets/img/services/mobile-app.jpg",
+        "howItWorks": [
+          {
+            "image": "assets/img/how-it-works/mobile-app.jpg",
+            "workplan": [
+              {
+                "icon": "icon-research.png",
+                "title": "Research",
+                "paragraph": "Understanding client requirements."
+              },
+              {
+                "icon": "icon-launch.png",
+                "title": "Launch",
+                "paragraph": "Deploying the app to stores."
+              }
+            ]
+          }
+        ],
+        "pricingData": {
+          "title": "Mobile App Plans",
+          "plans": [
+            {
+              "title": "Pro",
+              "subTitle": "Advanced plan",
+              "price": 1500,
+              "subText": "Full-featured mobile application.",
+              "features": [
+                { "icon": "feature-custom.png", "title": "Custom Design" },
+                { "icon": "feature-api.png", "title": "API Integration" }
+              ],
+              "buttonLink": "/signup/pro",
+              "buttonText": "Start Now"
+            }
+          ]
+        },
+        "funfactsData": [
+          {
+            "icon": "funfact-downloads.png",
+            "title": "App Downloads",
+            "number": 5000,
+            "subTitle": "since launch"
+          }
+        ],
+        "partnerData": [
+          {
+            "image": "partner-mobix.png",
+            "name": "Mobix Solutions"
+          }
+        ]
+      },
+      {
+        "title": "SEO Optimization",
+        "description": "Increase your search engine ranking.",
+        "image": "assets/img/services/seo.jpg",
+        "howItWorks": [
+          {
+            "image": "assets/img/how-it-works/seo.jpg",
+            "workplan": [
+              {
+                "icon": "icon-keyword.png",
+                "title": "Keyword Research",
+                "paragraph": "Finding the best keywords for your business."
+              },
+              {
+                "icon": "icon-strategy.png",
+                "title": "SEO Strategy",
+                "paragraph": "Developing a tailored SEO plan."
+              }
+            ]
+          }
+        ],
+        "pricingData": {
+          "title": "SEO Plans",
+          "plans": [
+            {
+              "title": "Standard",
+              "subTitle": "Intermediate plan",
+              "price": 300,
+              "subText": "Monthly SEO services.",
+              "features": [
+                { "icon": "feature-analytics.png", "title": "Analytics Reporting" },
+                { "icon": "feature-optimization.png", "title": "On-Page Optimization" }
+              ],
+              "buttonLink": "/signup/seo-standard",
+              "buttonText": "Sign Up"
+            }
+          ]
+        },
+        "funfactsData": [
+          {
+            "icon": "funfact-ranking.png",
+            "title": "Top Rankings Achieved",
+            "number": 50,
+            "subTitle": "for clients"
+          }
+        ],
+        "partnerData": [
+          {
+            "image": "partner-seo.png",
+            "name": "SEO Pro"
+          }
+        ]
+      },
+      {
+        "title": "Digital Marketing",
+        "description": "Comprehensive digital marketing solutions.",
+        "image": "assets/img/services/digital-marketing.jpg",
+        "howItWorks": [
+          {
+            "image": "assets/img/how-it-works/digital-marketing.jpg",
+            "workplan": [
+              {
+                "icon": "icon-audience.png",
+                "title": "Audience Research",
+                "paragraph": "Identifying your target audience."
+              },
+              {
+                "icon": "icon-ads.png",
+                "title": "Ads Management",
+                "paragraph": "Optimizing ads for better reach."
+              }
+            ]
+          }
+        ],
+        "pricingData": {
+          "title": "Marketing Plans",
+          "plans": [
+            {
+              "title": "Growth",
+              "subTitle": "For expanding reach",
+              "price": 750,
+              "subText": "Includes social media and PPC.",
+              "features": [
+                { "icon": "feature-social.png", "title": "Social Media Ads" },
+                { "icon": "feature-ppc.png", "title": "PPC Campaigns" }
+              ],
+              "buttonLink": "/signup/growth",
+              "buttonText": "Join Now"
+            }
+          ]
+        },
+        "funfactsData": [
+          {
+            "icon": "funfact-reach.png",
+            "title": "Audience Reach",
+            "number": 200000,
+            "subTitle": "in targeted campaigns"
+          }
+        ],
+        "partnerData": [
+          {
+            "image": "partner-adpro.png",
+            "name": "AdPro Solutions"
+          }
+        ]
+      }
+    ]
+  
+  

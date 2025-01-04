@@ -9,16 +9,32 @@ import { BlogService } from '../../common/blog/blog.service';
 export class BlogGridPageComponent implements OnInit {
 
     public blogData: any;
+    error: any;
+    isLoading: boolean = false;
 
     constructor(
 		private content: BlogService
     ) {
-		this.content.getData().subscribe((blogData: any) => {
-            this.blogData = blogData.data;
-        });
-    }
+		// this.content.getData().subscribe((blogData: any) => {
+        //     this.blogData = blogData.data;
+        //     console.log(this.blogData)
+        // });
 
-    ngOnInit(): void {}
+    }
+async ngOnInit() {
+  this.isLoading=true;
+    try {
+      // Fetch initial data
+      this.blogData = await this.content.getBlogsGridDataAsync();
+      this.isLoading=false;
+      console.log("data ",this.blogData)
+    } catch (error) {
+      this.error = error;
+      this.isLoading=false;
+      console.error('Error in component', error);
+    }
+  }
+    // ngOnInit(): void {}
 
     currentPage : any;
     onPageChange(page: number) {

@@ -24,16 +24,16 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-6" *ngFor="let content of servicesData | paginate: { itemsPerPage: 9, currentPage }">
                 <div class="single-services-box">
-                    <div class="icon">
-                        <i class="{{content.attributes.icon}}"></i>
-                    </div>
+                     <div class="icon">
+                        <i class="{{content.icon}}"></i>
+                    </div> 
                     <h3>
-                        <a [routerLink]="['/service', content.attributes.slug]">
-                            {{content.attributes.title}}
+                        <a [routerLink]="['/service', content.slug]">
+                            {{content.shortTitle}}
                         </a>
                     </h3>
-                    <p>{{content.attributes.shortDesc}}</p>
-                    <a [routerLink]="['/service', content.attributes.slug]" class="link-btn">
+                    <p>{{content.shortDescription}}</p>
+                    <a [routerLink]="['/service', content.slug]" class="link-btn">
                         Read More <i class="flaticon-right"></i>
                     </a>
                 </div>

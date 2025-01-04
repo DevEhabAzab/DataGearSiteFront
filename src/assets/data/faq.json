@@ -1,0 +1,39 @@
+{
+    "image": {
+        "data": {
+            "attributes": {
+                "url": "assets/img/faq.jpg"
+            }
+        }
+    },
+    "subTitle": "QUESTIONS",
+    "title": "Don’t Hesitate to Ask Questions",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore consectetur adipiscing.",
+    "items": [
+        {
+            "id": 0,
+            "title": "What problem does your business solve?",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur ipsum dolor sit amet adipiscing elit."
+        },
+        {
+            "id": 1,
+            "title": "How does your business generate income?",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur ipsum dolor sit amet adipiscing elit."
+        },
+        {
+            "id": 2,
+            "title": "What is your pricing strategy and why?",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur ipsum dolor sit amet adipiscing elit."
+        },
+        {
+            "id": 3,
+            "title": "What is your client retention rate?",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur ipsum dolor sit amet adipiscing elit."
+        },
+        {
+            "id": 4,
+            "title": "What is your social media strategy?",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consectetur ipsum dolor sit amet adipiscing elit."
+        }
+    ]
+}

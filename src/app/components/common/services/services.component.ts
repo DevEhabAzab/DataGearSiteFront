@@ -17,7 +17,8 @@ export class ServicesComponent implements OnInit {
 		private content: ServicesService
     ) {
 		this.content.getData().subscribe((servicesData: any) => {
-            this.servicesData = servicesData.data;
+            this.servicesData = servicesData;
+			console.log("service ", this.servicesData)
         });
 	}
 

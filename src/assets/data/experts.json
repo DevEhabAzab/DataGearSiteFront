@@ -1,0 +1,52 @@
+{
+    "subTitle":"OUR EXPERTS",
+    "title":"Meet Our Leadership Preparing For Your Success",
+    "members":[
+        {
+          "id": 1,
+          "name": "John Doe",
+          "position": "Chief Executive Officer",
+          "imageUrl": "assets/img/team/team1.jpg",
+          "socialLinks": {
+            "facebook": "https://facebook.com/johndoe",
+            "twitter": "https://twitter.com/johndoe",
+            "linkedin": "https://linkedin.com/in/johndoe",
+            "instagram": "https://instagram.com/johndoe"
+          }
+        },
+        {
+          "id": 2,
+          "name": "Jane Smith",
+          "position": "Chief Operating Officer",
+          "imageUrl": "assets/img/team/team2.jpg",
+          "socialLinks": {
+            "facebook": "https://facebook.com/janesmith",
+            "twitter": "https://twitter.com/janesmith",
+            "linkedin": "https://linkedin.com/in/janesmith",
+            "instagram": "https://instagram.com/janesmith"
+          }
+        },
+        {
+          "id": 3,
+          "name": "Robert Brown",
+          "position": "Chief Technology Officer",
+          "imageUrl": "assets/img/team/team3.jpg",
+          "socialLinks": {
+            "facebook": "https://facebook.com/robertbrown",
+            "twitter": "https://twitter.com/robertbrown",
+            "linkedin": "https://linkedin.com/in/robertbrown"
+          }
+        },
+        {
+          "id": 4,
+          "name": "Emily Davis",
+          "position": "Marketing Head",
+          "imageUrl": "assets/img/team/team4.jpg",
+          "socialLinks": {
+            "linkedin": "https://linkedin.com/in/emilydavis",
+            "instagram": "https://instagram.com/emilydavis"
+          }
+        }
+      ]
+      
+}

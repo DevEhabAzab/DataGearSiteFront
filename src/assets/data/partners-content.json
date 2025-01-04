@@ -1,0 +1,39 @@
+[
+      {
+        "image": {
+          "data": {
+            "attributes": {
+              "url": "assets/img/partner/partner1.png"
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "data": {
+            "attributes": {
+              "url": "assets/img/partner/partner2.png"
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "data": {
+            "attributes": {
+              "url": "assets/img/partner/partner3.png"
+            }
+          }
+        }
+      },
+      {
+        "image": {
+          "data": {
+            "attributes": {
+              "url": "assets/img/partner/partner4.png"
+            }
+          }
+        }
+      }
+    ]
+  

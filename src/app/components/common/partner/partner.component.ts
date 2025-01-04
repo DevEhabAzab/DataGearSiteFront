@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { PartnerService } from './partner.service';
+import { PartnerItem } from '../services/services.interfaces';
 
 @Component({
     selector: 'app-partner',
@@ -8,14 +9,15 @@ import { PartnerService } from './partner.service';
 })
 export class PartnerComponent implements OnInit {
 
-    public partnerData: any;
+    @Input()
+    public partnerData!: PartnerItem[];
 
     constructor(
         private content: PartnerService
     ) {
-        this.content.getData().subscribe((partnerData: any) => {
-            this.partnerData = partnerData.data.attributes;
-        });
+        // this.content.getData().subscribe((partnerData: any) => {
+        //     this.partnerData = partnerData.data.attributes;
+        // });
     }
 
     ngOnInit(): void {}

@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { PricingService } from './pricing.service';
+import { PricingData } from '../services/services.interfaces';
 
 @Component({
     selector: 'app-pricing',
@@ -8,14 +9,15 @@ import { PricingService } from './pricing.service';
 })
 export class PricingComponent implements OnInit {
 
-	public pricingData: any;
+    @Input()
+	public pricingData!: PricingData;
 
     constructor(
         private content: PricingService
     ) {
-        this.content.getData().subscribe((pricingData: any) => {
-            this.pricingData = pricingData.data.attributes;
-        });
+        // this.content.getData().subscribe((pricingData: any) => {
+        //     this.pricingData = pricingData.data.attributes;
+        // });
     }
 
     ngOnInit(): void {}

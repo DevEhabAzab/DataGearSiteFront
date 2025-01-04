@@ -15,11 +15,17 @@ export class HomeoneAboutComponent implements OnInit {
         private content: HomeoneAboutService
     ) {
         this.content.getData().subscribe((aboutData: any) => {
-            this.aboutData = aboutData.data.attributes;
+            console.log(aboutData)
+            this.aboutData = aboutData.aboutData ;
+            console.log("about data ",this.aboutData)
         });
-        this.content.getPartnersData().subscribe((aboutPartnersData: any) => {
-            this.aboutPartnersData = aboutPartnersData.data.attributes;
-        });
+        // this.content.getPartnersData().subscribe((aboutPartnersData: any) => {
+        //     console.log(aboutPartnersData )
+
+        //     this.aboutPartnersData = aboutPartnersData;
+        //     console.log(this.aboutPartnersData)
+
+        // });
     }
 
     ngOnInit(): void {}

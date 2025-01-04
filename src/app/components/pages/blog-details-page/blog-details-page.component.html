@@ -1,5 +1,5 @@
 <div *ngIf="blogDetailsData">
-    <div *ngFor="let content of blogDetailsData.data;">
+    <!-- <div *ngFor="let content of blogDetailsData.data;"> -->
 
         <!-- Page Title -->
         <div class="page-title-area">
@@ -17,7 +17,7 @@
                                 Blog
                             </a>
                         </li>
-                        <li>{{content.attributes.title}}</li>
+                        <li>{{blogDetailsData.title}}</li>
                     </ul>
                 </div>
             </div>
@@ -26,24 +26,24 @@
         </div>
 
         <!-- Blog Details Area -->
-        <div class="blog-details-area ptb-100">
+        <div class="blog-details-area ptb-100" style="width: 100%;">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 col-md-12">
+                    <div class="col-lg-12 col-md-12">
                         <div class="blog-details-desc">
-                            <div class="post-thumb">
-                                <img [src]="content.attributes.image.data.attributes.url" alt="blog-image">
+                            <div class="post-thumb text-center">
+                                <img [src]="blogDetailsData.imageUrl" alt="blog-image">
                             </div>
-                            <h3>{{content.attributes.title}}</h3>
+                            <h3>{{blogDetailsData.title}}</h3>
                             <div class="post-meta">
                                 <ul>
-                                    <li>
-                                        <i class="flaticon-date"></i> {{content.attributes.updatedAt | date}}
-                                    </li>
+                                    <li><!-- | date -->
+                                        <i class="flaticon-date"></i> {{blogDetailsData.updatedAt }}
+                                    </li>  
                                 </ul>
                             </div>
                             <div markdown ngPreserveWhitespaces>
-                                {{content.attributes.description}}
+                                {{blogDetailsData.content}}
                             </div>
                             <div class="post-footer">
                                 <div class="post-tags">
@@ -218,14 +218,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-12">
+                    <!-- <div class="col-lg-4 col-md-12">
                         <aside class="widget-area">
                             <app-blog-widget></app-blog-widget>
                         </aside>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
 
-    </div>
+    <!-- </div> -->
 </div>

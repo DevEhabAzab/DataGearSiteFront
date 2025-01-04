@@ -16,7 +16,7 @@ export class FaqComponent implements OnInit {
         private content: FaqService
     ) {
         this.content.getData().subscribe((faqData: any) => {
-            this.faqData = faqData.data.attributes;
+            this.faqData = faqData;
         });
     }
 
