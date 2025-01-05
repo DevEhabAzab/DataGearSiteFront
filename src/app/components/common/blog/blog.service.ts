@@ -10,11 +10,16 @@ export class BlogService {
 
     private API_URL= environment.API_URL;
     private Media_Base_URL= environment.Media_Base_URL;
+    static instance: BlogService;
 
 
     constructor(
         private http : HttpClient
-    ) {}
+    ) {
+      BlogService.instance = this;
+
+
+    }
 
     // getData(){
     //     let url = `${this.API_URL}/blogs?populate=*&sort[0]=id%3Adesc`;
@@ -83,16 +88,43 @@ export class BlogService {
         return this.http.get(url);
     
     }
-    
-    uploadFileToBlog(slug:string,file:File) : Observable<{ fileUrl: string }> {
+    async uploadFileToBlog(slug: string, file: File): Promise<any> {
+      try {
         const formData = new FormData();
-        formData.append('imageFile', file, file.name);
-        let url = `${this.API_URL}/Blog/UploadImage/${slug}`;
+        formData.append('file', file, file.name);
+        const url = `${this.API_URL}/Blog/UploadFile/${slug}`;
+        
+        const response = await this.http.post<{ content: string }>(url, formData).toPromise();
+        console.log('Raw response:', response);
+        let modifiedResponse = { fileUrl: '' };
 
-        // Replace with your server URL
-        return this.http.post<{ fileUrl: string }>(url, formData);
-      
+    // Parse the content to extract fileUrl
+    if (response && response.content) {
+      const parsedContent = JSON.parse(response.content);
+      console.log("parsed content",parsedContent)
+      modifiedResponse.fileUrl = `${this.API_URL.replace('/api','/').concat(parsedContent)}`;
+    } else {
+      console.warn('Content not found or invalid in response:', response);
     }
+
+    return modifiedResponse;
+      } catch (error) {
+        console.error('Error updating data', error);
+        throw error;
+      }
+    }
+    // async uploadFileToBlog(slug:string,file:File) :Promise<any> {
+    //     try {
+    //       const formData = new FormData();
+    //       formData.append('file', file, file.name);
+    //       let url = `${this.API_URL}/Blog/UploadFile/${slug}`;
+    //       const response = await this.http.post<{ fileUrl: string }>(url, formData).toPromise();
+    //       return response;
+    //     } catch (error) {
+    //       console.error('Error updating data', error);
+    //       throw error;
+    //     }
+    // }
     getMediaUrl(mediaPath: string): string {
         let result = mediaPath.replace(/^"|"$/g, '');
         return `${this.Media_Base_URL}/`+result;

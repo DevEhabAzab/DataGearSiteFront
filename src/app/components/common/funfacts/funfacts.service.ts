@@ -2,6 +2,14 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../../../../src/environments/environment';
 
+
+export interface Funfact{
+    icon: string;
+    title: string;
+    number: number;
+    subTitle: string;
+  }
+
 @Injectable({
     providedIn: 'root'
 })
@@ -13,9 +21,9 @@ export class FunfactsService {
         private http : HttpClient
     ) {}
 
-    // getData(slug:string    ){
-    //     let url = `'assets/data/services_data.json'`//`${this.API_URL}/funfact?populate=*`;
-    //     return this.http.get<>(url);
-    // }
+     getData(){
+         let url = 'assets/data/funfacts.json'//`${this.API_URL}/funfact?populate=*`;
+         return this.http.get<Funfact[]>(url);
+     }
 
 }

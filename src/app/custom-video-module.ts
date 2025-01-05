@@ -1,4 +1,5 @@
 import Quill from 'quill';
+import { BlogService } from './components/common/blog/blog.service';
 
 
 // Import the BlockEmbed blot from Quill
@@ -55,33 +56,33 @@ Quill.register(VideoBlot,true);
 
 
 
-export function imageHandler(this: any) {
-  const input = document.createElement('input');
-  input.setAttribute('type', 'file');
-  input.setAttribute('accept', 'image/*');
+// export function imageHandler(this: any) {
+//   const input = document.createElement('input');
+//   input.setAttribute('type', 'file');
+//   input.setAttribute('accept', 'image/*');
   
-  input.addEventListener('change', (event: Event) => {
-    const file = (event.target as HTMLInputElement).files![0];
-    if (file) {
-      console.log("sssssssssssssssssssss")
-      const reader = new FileReader();
-      reader.onload = () => {
-        const url = reader.result as string;
-        const range = (this.quill as any).getSelection();
-        (this.quill as any).insertEmbed(range.index, 'image', url);
-      };
-      reader.readAsDataURL(file);
-    }
-  });
+//   input.addEventListener('change', (event: Event) => {
+//     const file = (event.target as HTMLInputElement).files![0];
+//     if (file) {
+//       console.log("sssssssssssssssssssss")
+//       const reader = new FileReader();
+//       reader.onload = () => {
+//         const url = reader.result as string;
+//         const range = (this.quill as any).getSelection();
+//         (this.quill as any).insertEmbed(range.index, 'image', url);
+//       };
+//       reader.readAsDataURL(file);
+//     }
+//   });
 
-  input.click();
-}
+//   input.click();
+// }
 
 class VideoUploader {
   constructor(private quill:Quill,private options :any) {
     // this.quill = quill;
     // this.options = options;
-
+    //console.log("blog service",blogService)
     const toolbar:any = this.quill.getModule('toolbar');
     toolbar.addHandler('video', this.selectLocalVideo.bind(this));
   }
@@ -92,22 +93,26 @@ class VideoUploader {
     input.setAttribute('accept', 'video/*');
     input.click();
 
-    input.onchange = () => {
+    input.onchange =async () => {
       const file = input.files?.[0];
+      console.log("here u can upload files");
       console.log("file",file)
       if (file) {
-        const reader = new FileReader();
-        reader.onload = (e: any) => {
-          this.uploadVideo(e.target.result);
-        };
-        reader.readAsDataURL(file);
+        var res= await BlogService.instance.uploadFileToBlog("new_slug_for_this",file);
+        console.log("response of upload video",res.fileUrl)
+        this.uploadVideo(res.fileUrl);
+        // const reader = new FileReader();
+        // reader.onload = (e: any) => {
+        //   this.uploadVideo(e.target.result);
+        // };
+        // reader.readAsDataURL(file);
       }
     };
   }
 
   uploadVideo(videoDataUrl: string) {
     const range = this.quill.getSelection(true);
-    console.log("video url",videoDataUrl)
+    console.log("video url--------------------------------------",videoDataUrl)
     console.log("video range",range)
 
     this.quill.insertEmbed(range.index, 'video',videoDataUrl,'user');
@@ -118,7 +123,7 @@ Quill.register('modules/videoUploader', VideoUploader);
 
 class ImageUploader {
   constructor(private quill:Quill,private options :any) {
-
+      console.log("image handle handle handle ")
 
     const toolbar:any  = this.quill.getModule('toolbar');
     toolbar.addHandler('image', this.selectLocalImage.bind(this));
@@ -130,19 +135,24 @@ class ImageUploader {
     input.setAttribute('accept', 'image/*');
     input.click();
 
-    input.onchange = () => {
+    input.onchange =async () => {
       const file = input.files?.[0];
+      console.log("here is image upload ")
       if (file) {
-        const reader = new FileReader();
-        reader.onload = (e: any) => {
-          this.uploadImage(e.target.result);
-        };
-        reader.readAsDataURL(file);
+        var res= await BlogService.instance.uploadFileToBlog("new_slug_for_this",file);
+        console.log("response of upload imag imag image ",res.fileUrl)
+        this.uploadImage(res.fileUrl);
+        // const reader = new FileReader();
+        // reader.onload = (e: any) => {
+        //   this.uploadImage(e.target.result);
+        // };
+        // reader.readAsDataURL(file);
       }
     };
   }
 
   uploadImage(imageDataUrl: string) {
+    
     const range = this.quill.getSelection(true);
     this.quill.insertEmbed(range.index, 'image', imageDataUrl, 'user');  // Pass 'user' as the source
     this.quill.setSelection(range.index + 1);

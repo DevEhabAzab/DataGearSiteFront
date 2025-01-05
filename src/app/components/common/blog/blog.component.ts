@@ -17,16 +17,18 @@ export class BlogComponent implements OnInit {
         public router: Router,
 		private content: BlogService
     ) {
-		// this.content.getData().subscribe((blogData: any) => {
-        //     this.blogData = blogData.data;
-        // });
+		 this.content.getData().subscribe((blogData: any) => {
+             this.blogData = blogData;
+             console.log("data ",this.blogData)
+
+         });
     }
 
     async ngOnInit() {
         try {
-            this.slug =this.route.snapshot.paramMap.get('slug')!;
-          // Fetch initial data
-          this.blogData = await this.content.getDataBySlugAsync(this.slug);
+          //   this.slug =this.route.snapshot.paramMap.get('slug')!;
+          // // Fetch initial data
+          // this.blogData = await this.content.getDataBySlugAsync(this.slug);
           console.log("data ",this.blogData)
         } catch (error) {
           this.error = error;

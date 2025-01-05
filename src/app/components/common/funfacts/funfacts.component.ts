@@ -16,10 +16,14 @@ export class FunfactsComponent implements OnInit {
         public router: Router,
         private content: FunfactsService
     ) {
-        console.log(this.funfactsData)
-        // this.content.getData().subscribe((funfactsData: any) => {
-        //     this.funfactsData = funfactsData.data.attributes;
-        // });
+        if(!router.url.includes("/service")){
+            console.log(this.funfactsData)
+            this.content.getData().subscribe((funfactsData: any) => {
+                this.funfactsData = funfactsData;
+            });
+
+        }
+       
     }
 
     ngOnInit(): void {}

@@ -8,7 +8,7 @@
         font-size: 65px;
         position: relative;
         margin-bottom: 35px;
-        color: var(--secondaryColor);
+        color: var(--primaryColor);//secondaryColor
 
         &::before {
             top: 8px;
@@ -42,7 +42,7 @@
         font-size: 65px;
         position: relative;
         margin-bottom: 35px;
-        color: var(--secondaryColor);
+        color: var(--primaryColor);//secondaryColor
 
         &::before {
             top: 8px;
@@ -171,7 +171,7 @@
         font-size: 65px;
         position: absolute;
         margin-bottom: 35px;
-        color: var(--secondaryColor);
+        color: var(--primaryColor);//secondaryColor
 
         &::before {
             top: 8px;

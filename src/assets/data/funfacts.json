@@ -1,0 +1,27 @@
+[
+    {
+      "icon": "flaticon-navigation",
+      "title": "We have clients in",
+      "number": 68,
+      "subTitle": "countries"
+    },
+    {
+      "icon": "flaticon-rating",
+      "title": "Successful work with",
+      "number": 750,
+      "subTitle": "clients"
+    },
+    {
+      "icon": "flaticon-layer",
+      "title": "Successfully completed",
+      "number": 650,
+      "subTitle": "projects"
+    },
+    {
+      "icon": "flaticon-award",
+      "title": "Business excellence",
+      "number": 15,
+      "subTitle": "awards"
+    }
+  ]
+  

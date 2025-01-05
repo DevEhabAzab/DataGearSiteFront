@@ -46,14 +46,14 @@
             family: var(--headingFontFamily);
         };
         &:hover {
-            background-color: var(--secondaryColor);
+            background-color: var(--primary-dark-Color);
         }
     }
     .features-list {
         margin-top: 25px;
 
         h5 {
-            color: var(--secondaryColor);
+            color: var(--primaryColor);//secondaryColor
             font-size: var(--fontSize);
             margin-bottom: 20px;
         }
@@ -123,7 +123,7 @@
                 background-color: var(--secondaryColor);
 
                 &:hover {
-                    background-color: var(--blackColor);
+                    background-color: var(--primaryColor);
                 }
             }
         }

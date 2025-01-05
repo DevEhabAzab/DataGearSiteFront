@@ -222,10 +222,10 @@
                 };
                 .nav-link {
                     position: relative;
-                    color: var(--blackColor);
+                    color: var(--whiteColor);//WASblackColor
                     transition: var(--transition);
                     font: {
-                        family: var(--headingFontFamily);
+                        family: var(--headingFontFamily);//washeadingFontFamily
                         weight: 600;
                         size: 16px;
                     };
@@ -236,7 +236,7 @@
                         bottom: 30px;
                     };
                     &:hover, &.active {
-                        color: var(--primaryColor);//wasprimaryColor
+                        color: var(--secondaryColor);//wasprimaryColor
                     }
                 }
                 .dropdown-toggle {
@@ -265,7 +265,7 @@
                 }
                 &:hover, &.active {
                     .nav-link {
-                        color: var(--paragraphColor);//wasprimaryColor
+                        color: var(--secondaryColor);//wasprimaryColor
                     }
                 }
                 .dropdown-menu {
@@ -1092,7 +1092,7 @@
                     width: 30px;
                     margin: 5px 0;
                     display: block;
-                    background: var(--blackColor);
+                    background: var(--whiteColor);
                 }
             }
         }
@@ -1101,13 +1101,19 @@
                 .burger-menu {
                     span {
                         &.top-bar {
+                            background-color:  var(--whiteColor);
+                            color: var(--whiteColor);
                             transform: rotate(45deg);
                             transform-origin: 10% 10%;
                         }
                         &.middle-bar {
+                            background-color:  var(--whiteColor);
+                            color: var(--whiteColor);
                             opacity: 0;
                         }
                         &.bottom-bar {
+                            background-color:  var(--whiteColor);
+                            color: var(--whiteColor);
                             transform: rotate(-45deg);
                             transform-origin: 10% 90%;
                             margin-top: 5px;
@@ -1440,7 +1446,7 @@
     }
     .navbar-light {
         .navbar-toggler {
-            color: var(--blackColor);
+            color: var(--whiteColor);
             font-size: inherit;
             box-shadow: unset;
             border: none;
@@ -1454,7 +1460,7 @@
                     width: 30px;
                     margin: 5px 0;
                     display: block;
-                    background: var(--blackColor);
+                    background: var(--whiteColor);
                 }
             }
         }
@@ -1463,13 +1469,18 @@
                 .burger-menu {
                     span {
                         &.top-bar {
+                            background-color:  var(--whiteColor);
+                            color: var(--whiteColor);
                             transform: rotate(45deg);
                             transform-origin: 10% 10%;
                         }
                         &.middle-bar {
+                            background-color:  var(--whiteColor);
+                            color: var(--whiteColor);
                             opacity: 0;
                         }
                         &.bottom-bar {
+                            color: var(--whiteColor);
                             transform: rotate(-45deg);
                             transform-origin: 10% 90%;
                             margin-top: 5px;

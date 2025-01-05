@@ -1,0 +1,43 @@
+{
+    "subTitle": "GROW WITH US",
+    "title": "What can we help you achieve?",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "buttonText": "Let's Get To Work",
+    "buttonLink": "/contact",
+    "image": {
+      "data": {
+        "attributes": {
+          "url": "assets/img/community.png"
+        }
+      }
+    },
+    "shape1": {
+      "data": {
+        "attributes": {
+          "url": "assets/img/experience-funfacts/funfacts1.jpg"
+        }
+      }
+    },
+    "shape2": {
+      "data": {
+        "attributes": {
+          "url": "assets/img/experience-funfacts/funfacts2.jpg"
+        }
+      }
+    },
+    "shape3": {
+      "data": {
+        "attributes": {
+          "url": "assets/img/experience-funfacts/funfacts3.jpg"
+        }
+      }
+    },
+    "shape4": {
+      "data": {
+        "attributes": {
+          "url": "assets/img/experience-funfacts/funfacts4.jpg"
+        }
+      }
+    }
+  }
+  

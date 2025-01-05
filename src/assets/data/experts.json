@@ -46,6 +46,46 @@
             "linkedin": "https://linkedin.com/in/emilydavis",
             "instagram": "https://instagram.com/emilydavis"
           }
+        },
+        {
+          "id": 5,
+          "name": "Emily Davis",
+          "position": "Marketing Head",
+          "imageUrl": "assets/img/team/team4.jpg",
+          "socialLinks": {
+            "linkedin": "https://linkedin.com/in/emilydavis",
+            "instagram": "https://instagram.com/emilydavis"
+          }
+        },
+        {
+          "id": 6,
+          "name": "Emily Davis",
+          "position": "Marketing Head",
+          "imageUrl": "assets/img/team/team4.jpg",
+          "socialLinks": {
+            "linkedin": "https://linkedin.com/in/emilydavis",
+            "instagram": "https://instagram.com/emilydavis"
+          }
+        },
+        {
+          "id": 7,
+          "name": "Emily Davis",
+          "position": "Marketing Head",
+          "imageUrl": "assets/img/team/team4.jpg",
+          "socialLinks": {
+            "linkedin": "https://linkedin.com/in/emilydavis",
+            "instagram": "https://instagram.com/emilydavis"
+          }
+        },
+        {
+          "id": 8,
+          "name": "Emily Davis",
+          "position": "Marketing Head",
+          "imageUrl": "assets/img/team/team4.jpg",
+          "socialLinks": {
+            "linkedin": "https://linkedin.com/in/emilydavis",
+            "instagram": "https://instagram.com/emilydavis"
+          }
         }
       ]
       

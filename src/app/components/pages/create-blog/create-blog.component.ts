@@ -51,10 +51,11 @@ export class CreateBlogComponent {
       ['clean']                               // Remove formatting button
     ],
     videoUploader: true,  // Activate the custom video uploader module
+    imageUploader: true,  // Activate the custom video uploader module
 
-    handlers: {
-      'image': this.imageHandler.bind(this) // Bind `this` to the component instance
-    }
+    // handlers: {
+    //   'image': this.imageHandler.bind(this) // Bind `this` to the component instance
+    // }
   };
   imageHandler() {
     const input = document.createElement('input');
@@ -129,33 +130,43 @@ export class CreateBlogComponent {
     // });
     //var quil =new Quill('#editor',this.editorConfig)
   }
-  onFileChange(event: any): void {
+  async onFileChange(event: any): Promise<any> {
     const file = event.target.files[0];
     if (file) {
-      this.processFile(file);
+
+      await this.processFile(file);
     }
   }
 
-  processFile(file: File): void {
-    const reader = new FileReader();
+  async processFile(file: File): Promise<any>{
 
-    reader.onload = (e: any) => {
-      const binaryData = e.target.result; // This is an ArrayBuffer
-      console.log('File binary data:', binaryData);
+    
+    var res= await BlogService.instance.uploadFileToBlog("new_slug_for_this",file);
+        console.log("response of upload video",res.fileUrl)
+        this.headImageUrl = res.fileUrl;
+        this.blogForm.patchValue({
+          imageUrl: res.fileUrl
+        });
+    //     //is.uploadVideo(res.fileUrl);
+    // const reader = new FileReader();
 
-      // Optionally, convert binary data to Base64 URL
-      const base64Data = this.arrayBufferToBase64(binaryData);
-      console.log('Base64 Data URL:', base64Data);
+    // reader.onload = (e: any) => {
+    //   const binaryData = e.target.result; // This is an ArrayBuffer
+    //   console.log('File binary data:', binaryData);
 
-      //this.blogData.ImageUrl=base64Data;
-      // Handle binary data directly
-      this.headImageUrl = base64Data;
-      this.blogForm.patchValue({
-        imageUrl: base64Data
-      });
-    };
+    //   // Optionally, convert binary data to Base64 URL
+    //   const base64Data = this.arrayBufferToBase64(binaryData);
+    //   console.log('Base64 Data URL:', base64Data);
 
-    reader.readAsArrayBuffer(file); // Read file as binary data
+    //   //this.blogData.ImageUrl=base64Data;
+    //   // Handle binary data directly
+    //   this.headImageUrl = base64Data;
+    //   this.blogForm.patchValue({
+    //     imageUrl: base64Data
+    //   });
+    // };
+
+    // reader.readAsArrayBuffer(file); // Read file as binary data
   }
 
   // Helper function to convert ArrayBuffer to Base64
@@ -195,7 +206,7 @@ togglePreview(): void {
       const response = await this.blogService.updateDataAsync(this.blogData);
 
       this.isLoading=false;
-      this.router.navigate(['/blog-grid']);
+      this.router.navigate(['/blogs']);
 
       console.log('Data created:', response);
       

@@ -29,7 +29,7 @@
         font-size: 65px;
         position: relative;
         margin-bottom: 35px;
-        color: var(--secondaryColor);
+        color: var(--primaryColor);//was secondaryColor
         transition: var(--transition);
 
         &::before {

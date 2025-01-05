@@ -16,7 +16,7 @@ export class CommunityComponent implements OnInit {
         private content: CommunityService
     ) {
         this.content.getData().subscribe((communityData: any) => {
-            this.communityData = communityData.data.attributes;
+            this.communityData = communityData;
         });
     }
 

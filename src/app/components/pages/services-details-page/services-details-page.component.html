@@ -3,7 +3,7 @@
     <div class="container">
         <div class="page-title-content">
             <span class="sub-title">SERVICES DETAILS</span>
-            <h1>{{serviceDetailsData?.title}}</h1>
+            <h1>{{serviceDetailsData?.shortTitle}}</h1>
             <ul>
                 <li>
                     <a routerLink="/">
@@ -15,7 +15,7 @@
                         Services
                     </a>
                 </li>
-                <li>{{serviceDetailsData?.title}}</li>
+                <li>{{serviceDetailsData?.shortTitle}}</li>
             </ul>
         </div>
     </div>
@@ -44,7 +44,7 @@
                         </lightgallery>
                     </div>
                     <div class="quote">
-                        <div *ngFor="let qoute of  serviceDetailsData?.quotes">
+                        <div class="quote-text" *ngFor="let qoute of  serviceDetailsData?.quotes">
                             “{{qoute}}”
                             <br>
                             <br>

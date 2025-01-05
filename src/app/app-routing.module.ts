@@ -53,7 +53,7 @@ const routes: Routes = [
     {path: 'forgot-password', component: ForgotPasswordPageComponent},
     {path: 'privacy-policy', component: PrivacyPolicyPageComponent},
     {path: 'terms-conditions', component: TermsConditionsPageComponent},
-    {path: 'blog-grid', component: BlogGridPageComponent},
+    {path: 'blogs', component: BlogGridPageComponent},
     {path: 'blog-left-sidebar', component: BlogLeftSidebarPageComponent},
     {path: 'blog-right-sidebar', component: BlogRightSidebarPageComponent},
     {path: 'blog/:slug', component: BlogDetailsPageComponent},

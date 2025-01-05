@@ -5,7 +5,8 @@
     --fontFamily: 'Montserrat', sans-serif;
     --headingFontFamily: 'Cabin', sans-serif;
     --primaryColor: #0451a4;//was FA3308
-    --secondaryColor: #00569A;
+    --primary-dark-Color: #023062;//was FA3308
+    --secondaryColor: #c9dff5;//was00569A
     --paragraphColor: #606060;
     --whiteColor: #ffffff;
     --blackColor: #000000;
@@ -160,7 +161,7 @@ p {
     color: var(--whiteColor);
     padding: 12px 62px 12px 30px;
     transition: var(--transition);
-    background-color: var(--secondaryColor);
+     background-color: var(--primaryColor);//secondaryColor
     font: {
         family: var(--headingFontFamily);
         weight: 500;
@@ -197,7 +198,7 @@ p {
         background-color: var(--primaryColor);
     }
     &:hover {
-        background-color: var(--secondaryColor);
+        background-color: var(--primary-dark-Color);//secondaryColor
         color: var(--whiteColor);
 
         &::after, &::before {

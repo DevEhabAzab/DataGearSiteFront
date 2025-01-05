@@ -42,7 +42,7 @@
             width: 8px;
             position: absolute;
             transition: var(--transition);
-            background-color: var(--secondaryColor);
+            background-color: var(--primaryColor);//secondaryColor
         }
         .social {
             padding-left: 0;

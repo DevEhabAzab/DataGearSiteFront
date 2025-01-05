@@ -30,7 +30,7 @@ export class CreateBlogPopupComponent {
   onSubmit() {
     this.isLoading=true;
     this.content.create({ "slug": this.slug, "title": this.title, "UserId": "60ca91f0-6360-4862-b3da-a327442de88a", "Content": "", "Publisher": "" }).subscribe((result: any) => {
-      alert(`Name: ${this.slug}, Email: ${this.title} slug name in server is ${result}`);
+      //alert(`Name: ${this.slug}, Email: ${this.title} slug name in server is ${result}`);
       this.closePopup();
       this.isLoading=false;
       this.router.navigate(['/blog/create',result]);
