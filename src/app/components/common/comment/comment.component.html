@@ -1,0 +1,23 @@
+<div class="comment-body">
+    <footer class="comment-meta">
+        <div class="comment-author vcard">
+            <img [src]="avatarImage" class="avatar" alt="user">
+            <b class="fn">{{ comment.creatorName }}</b>
+        </div>
+        <div class="comment-metadata">
+            <span>{{ comment.creationDate | date: 'longDate' }} at {{ comment.creationDate | date: 'shortTime' }}</span>
+        </div>
+    </footer>
+    <div class="comment-content">
+        <p>{{ comment.content }}</p>
+    </div>
+    <div class="reply">
+        <a href="#" (click)="handleChange($event, comment.id)"  class="comment-reply-link">Reply</a>
+    </div>
+</div>
+<ol class="children" *ngIf="comment.replies && comment.replies.length">
+    <li *ngFor="let reply of comment.replies" class="comment">
+        <app-comment [comment]="reply"></app-comment>
+    </li>
+</ol>
+

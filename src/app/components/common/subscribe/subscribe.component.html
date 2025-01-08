@@ -12,9 +12,9 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-12">
-                <form class="subscribe-form newsletter-form">
-                    <input type="email" class="input-newsletter" placeholder="Enter your email" name="email" required autocomplete="off">
-                    <button type="submit" class="default-btn">Subscribe Now <i class="flaticon-right"></i></button>
+                <form class="subscribe-form newsletter-form" (ngSubmit)="onSubmit()">
+                    <input type="email" class="input-newsletter" placeholder="Enter your email" [(ngModel)]="email" name="email" required autocomplete="off">
+                    <button type="submit" class="default-btn" >Subscribe Now <i class="flaticon-right"></i></button>
                 </form>
             </div>
         </div>
@@ -43,8 +43,8 @@
                         <span class="sub-title">NEWSLETTER</span>
                         <h2>Subscribe To Our Newsletter</h2>
                     </div>
-                    <form class="subscribe-form newsletter-form">
-                        <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required autocomplete="off">
+                    <form class="subscribe-form newsletter-form" (ngSubmit)="onSubmit()">
+                        <input type="email" class="input-newsletter" placeholder="Enter your email" [(ngModel)]="email" name="EMAIL" required autocomplete="off">
                         <button type="submit" class="default-btn">
                             Subscribe Now <i class="flaticon-right"></i>
                         </button>

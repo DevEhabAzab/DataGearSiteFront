@@ -137,10 +137,9 @@
     }
     .default-btn {
         margin-top: 20px;
-        color: var(--whiteColor);
-        background-color: transparent;
+        color: var(--primaryColor);
+        background-color: var(--whiteColor);
         border: 1px solid var(--whiteColor);
-        background-color: var(--secondaryColor);
         &::before, &::after {
             width: 0;
         }

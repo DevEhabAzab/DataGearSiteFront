@@ -7,6 +7,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { LightgalleryModule } from 'lightgallery/angular';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NotifierModule } from 'angular-notifier';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -82,6 +84,10 @@ import { InputTextModule } from 'primeng/inputtext';
 import { AnimationLottieComponent } from './components/common/animation-lottie/animation-lottie.component';
 
 import player from 'lottie-web';
+import { CommentsComponent } from './components/common/comments/comments.component';
+import { CommentComponent } from './components/common/comment/comment.component';
+import { CommentListComponent } from './components/common/comment-list/comment-list.component';
+import { InitBlogComponent } from './components/pages/init-blog/init-blog.component';
 
 export function playerFactory() {
   return player;
@@ -152,6 +158,10 @@ export function playerFactory() {
         BlogContentEditorComponent,
         CreateBlogComponent,
         AnimationLottieComponent,
+        CommentsComponent,
+        CommentComponent,
+        CommentListComponent,
+        InitBlogComponent,
 
 
         
@@ -173,8 +183,7 @@ export function playerFactory() {
     EditorModule,
     SelectButtonModule,
     InputTextModule,
-
-
+    NotifierModule
 
      
 ],

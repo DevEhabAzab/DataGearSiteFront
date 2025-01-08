@@ -55,7 +55,7 @@
         transition: var(--transition);
     }
     .link-btn {
-        color: var(--secondaryColor);
+        color: var(--primaryColor);//secondaryColor
         display: inline-block;
         padding-right: 30px;
         position: absolute;
@@ -74,7 +74,7 @@
             position: absolute;
         }
         &:hover {
-            color: var(--primaryColor);
+            color: var(--primary-dark-Color);//primaryColor
         }
     }
     &:hover {
@@ -142,7 +142,7 @@
             transition: var(--transition);
         }
         .link-btn {
-            color: var(--secondaryColor);
+            color: var(--primaryColor);//secondaryColor
             display: inline-block;
             padding-right: 30px;
             position: absolute;
@@ -161,7 +161,7 @@
                 position: absolute;
             }
             &:hover {
-                color: var(--primaryColor);
+                color: var(--primary-dark-Color);//primaryColor
             }
         }
     }

@@ -1,25 +1,25 @@
 <div
     class="footer-area"
-    [ngClass]="{'bg-black': router.url === '/index-2' || router.url === '/services'}"
+    [ngClass]="{'bg-black': router.url === '/index-2' }"
 >
     <div class="container" *ngIf="footerData">
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div
                     class="single-footer-widget"
-                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                    [ngClass]="{'color-white': router.url === '/index-2' }"
                 >
                     <a
                         routerLink="/"
                         class="logo d-inline-block"
-                        [ngClass]="{'d-none': router.url === '/index-2' || router.url === '/services'}"
+                        [ngClass]="{'d-none': router.url === '/index-2' }"
                     >
                         <img [src]="footerData.blackLogo.data.attributes.url" alt="logo">
                     </a>
                     <a
                         routerLink="/"
                         class="logo d-inline-block d-none"
-                        [ngClass]="{'d-block': router.url === '/index-2' || router.url === '/services'}"
+                        [ngClass]="{'d-block': router.url === '/index-2' }"
                     >
                         <img [src]="footerData.whiteLogo.data.attributes.url" alt="logo">
                     </a>
@@ -36,7 +36,7 @@
             <div class="col-lg-2 col-md-6 col-sm-6">
                 <div
                     class="single-footer-widget pl-1"
-                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                    [ngClass]="{'color-white': router.url === '/index-2' }"
                 >
                     <h3>About Us</h3>
                     <ul class="custom-links">
@@ -51,7 +51,7 @@
             <div class="col-lg-2 col-md-3 col-sm-6">
                 <div
                     class="single-footer-widget"
-                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                    [ngClass]="{'color-white': router.url === '/index-2' }"
                 >
                     <h3>Resources</h3>
                     <ul class="custom-links">
@@ -66,7 +66,7 @@
             <div class="col-lg-2 col-md-3 col-sm-6">
                 <div
                     class="single-footer-widget"
-                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                    [ngClass]="{'color-white': router.url === '/index-2' }"
                 >
                     <h3>Quick Link</h3>
                     <ul class="custom-links">
@@ -81,7 +81,7 @@
             <div class="col-lg-3 col-md-6 col-sm-6">
                 <div
                     class="single-footer-widget"
-                    [ngClass]="{'color-white': router.url === '/index-2' || router.url === '/services'}"
+                    [ngClass]="{'color-white': router.url === '/index-2' }"
                 >
                     <h3>Contact Us</h3>
                     <ul class="footer-contact-info">
@@ -93,9 +93,9 @@
                 </div>
             </div>
         </div>
-        <div class="copyright-area">
+        <!-- <div class="copyright-area">
             <p>© Qian is Proudly Owned by <a href="https://envytheme.com/" target="_blank">EnvyTheme</a></p>
-        </div>
+        </div> -->
     </div>
     <div
         class="shape3 d-none"

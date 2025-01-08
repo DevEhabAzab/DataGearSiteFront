@@ -1,0 +1,201 @@
+.comments-area {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #eeeeee;
+
+    .comments-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+        line-height: initial;
+    }
+   
+    .comment-respond {
+        margin-top: 30px;
+
+        .comment-reply-title {
+            margin-bottom: 0;
+            font-size: 24px;
+
+            #cancel-comment-reply-link {
+                display: inline-block;
+            }
+        }
+        .comment-notes {
+            font-style: italic;
+            margin: {
+                bottom: 20px;
+                top: 10px;
+            };
+            .required {
+                color: red;
+            }
+        }
+        .form-group {
+            margin-bottom: 25px;
+    
+            label {
+                display: block;
+                margin-bottom: 10px;
+                font: {
+                    size: 15px;
+                    weight: 500;
+                };
+            }
+            .form-control {
+                background-color: #f9f9f9;
+                font-size: var(--fontSize);
+                color: var(--blackColor);
+                box-shadow: unset;
+                border-radius: 0;
+                height: 50px;
+                width: 100%;
+                border: 0;
+                padding: {
+                    left: 18px;
+                    right: 18px;
+                };
+                &::placeholder {
+                    color: var(--paragraphColor);
+                    transition: var(--transition);
+                }
+                &:focus {
+                    &::placeholder {
+                        color: transparent;
+                    }
+                }
+            }
+            textarea.form-control {
+                height: auto !important;
+                padding-top: 18px;
+            }
+        }
+        .form-check {
+            color: var(--paragraphColor);
+            margin: {
+                top: 5px;
+                bottom: 20px;
+            };
+            a {
+                color: var(--primaryColor);
+    
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+            .form-check-input {
+                margin-top: 0.12em;
+                box-shadow: unset !important;
+    
+                &[type=checkbox] {
+                    border-radius: 0;
+                }
+                &:checked {
+                    background-color: var(--primaryColor);
+                    border-color: var(--primaryColor);
+                }
+                &:focus {
+                    border-color: var(--primaryColor);
+                }
+            }
+        }
+        .submit-btn {
+            background-color: var(--primaryColor);
+            transition: var(--transition);
+            color: var(--whiteColor);
+            display: inline-block;
+            padding: 12px 30px;
+            box-shadow: unset;
+            border: 0;
+            font: {
+                family: var(--headingFontFamily);
+                size: var(--fontSize);
+                weight: 600;
+            };
+            &:hover {
+                background-color: var(--secondaryColor);
+                color: var(--whiteColor);
+            }
+        }
+    }
+}
+
+/* Max width 767px */
+@media only screen and (max-width : 767px) {
+
+    
+.comments-area {
+    margin-top: 25px;
+    padding-top: 25px;
+
+    .comments-title {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .comment-respond {
+        .comment-reply-title {
+            font-size: 18px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+
+            .form-control {
+                height: 50px;
+                font-size: 13px;
+                padding: {
+                    left: 15px;
+                    right: 15px;
+                };
+            }
+        }
+        .form-check {
+            font-size: 13px;
+            margin: {
+                top: 5px;
+                bottom: 15px;
+            };
+            .form-check-input {
+                margin-top: 0.30em;
+            }
+        }
+        .submit-btn {
+            font-size: 14px;
+            padding: {
+                top: 11px;
+                left: 30px;
+                right: 30px;
+                bottom: 11px;
+            };
+        }
+    }
+}
+
+}
+
+/* Min width 768px to Max width 991px */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    .comments-area {
+        .comments-title {
+            font-size: 20px;
+        }
+        .comment-respond {
+            .comment-reply-title {
+                font-size: 20px;
+            }
+            .form-group {
+                .form-control {
+                    font-size: 15px;
+                    padding: {
+                        left: 15px;
+                        right: 15px;
+                    };
+                }
+            }
+            .submit-btn {
+                font-size: 15px;
+            }
+        }
+    }
+
+}

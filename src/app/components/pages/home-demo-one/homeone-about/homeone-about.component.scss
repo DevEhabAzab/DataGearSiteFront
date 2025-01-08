@@ -67,9 +67,8 @@
         color: var(--whiteColor);
     }
     .default-btn {
-        margin-top: 10px;
-        color: var(--whiteColor);
-        background-color: transparent;
+        color: var(--primaryColor);
+        background-color:var(--whiteColor);
         border: 1px solid var(--whiteColor);
 
         &::before, &::after {
@@ -77,13 +76,30 @@
         }
         &:hover {
             color: var(--whiteColor);
-            border-color: var(--primaryColor);
-
+            background-color: var(--whiteColor);
             &::after, &::before {
                 width: 50%;
             }
         }
     }
+    // .default-btn {
+    //     margin-top: 10px;
+    //     color: var(--whiteColor);
+    //     background-color: transparent;
+    //     border: 1px solid var(--whiteColor);
+
+    //     &::before, &::after {
+    //         width: 0;
+    //     }
+    //     &:hover {
+    //         color: var(--whiteColor);
+    //         border-color: var(--primaryColor);
+
+    //         &::after, &::before {
+    //             width: 50%;
+    //         }
+    //     }
+    // }
     &.d-flex {
         height: 100%;
         flex-direction: column;
